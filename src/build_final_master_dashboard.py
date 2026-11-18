@@ -4,7 +4,7 @@ import os
 
 def build_final_master_dashboard():
     print("=" * 60)
-    print("Building FINAL MASTER DASHBOARD with Contact Details & Multi-Version Engine")
+    print("Building FINAL MASTER DASHBOARD with Comprehensive Methodology")
     print("=" * 60)
     
     top_bat_csv = 'rr-submission/v4/stage4_consistency_scoring/top10_batters_v4_final.csv'
@@ -77,6 +77,16 @@ def build_final_master_dashboard():
             color: white;
             box-shadow: 0 4px 14px 0 rgba(228, 0, 124, 0.39);
         }}
+        .math-block {{
+            background: rgba(15, 23, 42, 0.9);
+            border-left: 3px solid #e4007c;
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-family: monospace;
+            color: #f472b6;
+            margin: 8px 0;
+            overflow-x: auto;
+        }}
     </style>
 </head>
 <body class="min-h-screen flex flex-col">
@@ -107,17 +117,21 @@ def build_final_master_dashboard():
                     <svg class="w-3.5 h-3.5 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
                     Email
                 </a>
-                <a href="https://wa.me/447818150412" target="_blank" class="bg-emerald-950/40 hover:bg-emerald-900/40 border border-emerald-500/30 px-2.5 py-1.5 rounded-lg text-emerald-300 transition flex items-center gap-1.5" title="WhatsApp Contact (+44 7818150412 / +91 7396600322)">
+                <a href="tel:+447818150412" class="bg-slate-900 hover:bg-slate-800 border border-slate-800 px-2.5 py-1.5 rounded-lg text-slate-300 hover:text-white transition flex items-center gap-1.5" title="Call (UK Number Only)">
+                    <svg class="w-3.5 h-3.5 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                    Call: +44 7818150412
+                </a>
+                <a href="https://wa.me/447818150412" target="_blank" class="bg-emerald-950/40 hover:bg-emerald-900/40 border border-emerald-500/30 px-2.5 py-1.5 rounded-lg text-emerald-300 transition flex items-center gap-1.5" title="WhatsApp on UK Number">
                     <svg class="w-3.5 h-3.5 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
-                    WhatsApp
+                    WhatsApp (UK)
+                </a>
+                <a href="https://wa.me/917396600322" target="_blank" class="bg-emerald-950/40 hover:bg-emerald-900/40 border border-emerald-500/30 px-2.5 py-1.5 rounded-lg text-emerald-300 transition flex items-center gap-1.5" title="WhatsApp on India Number (WhatsApp Only)">
+                    <svg class="w-3.5 h-3.5 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                    WhatsApp (IND)
                 </a>
                 <a href="https://www.linkedin.com/in/mohammed-aleem-bukkapatnam/" target="_blank" class="bg-blue-950/40 hover:bg-blue-900/40 border border-blue-500/30 px-2.5 py-1.5 rounded-lg text-blue-300 transition flex items-center gap-1.5" title="LinkedIn Profile">
                     <svg class="w-3.5 h-3.5 text-blue-400" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                     LinkedIn
-                </a>
-                <a href="https://github.com/Aleem1404/superr-selector-s2" target="_blank" class="bg-pink-600/20 border border-pink-500/40 text-pink-300 hover:bg-pink-600/30 px-2.5 py-1.5 rounded-lg font-semibold flex items-center gap-1.5 transition">
-                    <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
-                    GitHub
                 </a>
             </div>
         </div>
@@ -178,7 +192,7 @@ def build_final_master_dashboard():
             </button>
             <button onclick="switchTab('methodology')" id="tab-methodology" class="tab-btn px-4 py-2.5 rounded-t-xl font-bold text-xs uppercase tracking-wider transition text-slate-400 flex items-center gap-1.5">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
-                Candidate & Methodology
+                Candidate & Full Methodology
             </button>
         </div>
 
@@ -502,7 +516,7 @@ def build_final_master_dashboard():
         </section>
 
         <!-- ========================================== -->
-        <!-- TAB: CANDIDATE & METHODOLOGY -->
+        <!-- TAB: CANDIDATE & FULL METHODOLOGY -->
         <!-- ========================================== -->
         <section id="sec-methodology" class="space-y-6 hidden">
             
@@ -521,13 +535,13 @@ def build_final_master_dashboard():
                             <svg class="w-4 h-4 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
                             mohammedaleem1404@gmail.com
                         </a>
-                        <a href="https://wa.me/447818150412" target="_blank" class="flex items-center gap-1.5 hover:text-emerald-400 transition bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-800">
-                            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
-                            UK: +44 7818150412
+                        <a href="tel:+447818150412" class="flex items-center gap-1.5 hover:text-indigo-400 transition bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-800" title="Direct Phone Call (UK Number Only)">
+                            <svg class="w-4 h-4 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                            Call & WhatsApp (UK): +44 7818150412
                         </a>
-                        <a href="https://wa.me/917396600322" target="_blank" class="flex items-center gap-1.5 hover:text-emerald-400 transition bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-800">
+                        <a href="https://wa.me/917396600322" target="_blank" class="flex items-center gap-1.5 hover:text-emerald-400 transition bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-800" title="WhatsApp Only (India Number)">
                             <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
-                            IND: +91 7396600322
+                            WhatsApp Only (IND): +91 7396600322
                         </a>
                         <a href="https://www.linkedin.com/in/mohammed-aleem-bukkapatnam/" target="_blank" class="flex items-center gap-1.5 hover:text-blue-400 transition bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-800">
                             <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
@@ -544,38 +558,118 @@ def build_final_master_dashboard():
                 </div>
             </div>
 
+            <!-- Detailed Methodology Breakdown Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="glass-card rounded-2xl p-6 border border-slate-800 space-y-4">
+                <!-- Card 1: Leverage Index Architecture -->
+                <div class="glass-card rounded-2xl p-6 border border-slate-800 space-y-3">
                     <h3 class="text-base font-bold text-pink-400 flex items-center gap-2">
-                        <span>1. Leverage Index Formulation</span>
+                        <span>1. Leverage Index Architecture (LI &ge; 1.50)</span>
                     </h3>
                     <p class="text-xs text-slate-300 leading-relaxed">
-                        Every delivery is assigned a dynamic Leverage Index (LI) defined by:
+                        Pressure is never static. We formulated a ball-by-ball Dynamic Leverage Index across two distinct match phases:
                     </p>
-                    <div class="bg-slate-900/80 p-3 rounded-lg text-xs font-mono text-pink-300 border border-slate-800">
-                        LI = Phase_Weight &times; Margin_Weight &times; Stage_Multiplier
+                    <div class="math-block">
+                        LI_chase = 0.40 &times; U_RRR + 0.35 &times; D_balls &times; (RRR / 8.5) + 0.25 &times; W_risk<br>
+                        U_RRR = 1 / (1 + exp(-0.5 &times; (RRR - 9.0)))<br>
+                        D_balls = 1 - (Balls_Remaining / 120)<br>
+                        W_risk = 1 - (Wickets_In_Hand / 10)^1.2
                     </div>
-                    <ul class="text-xs text-slate-400 space-y-1.5 list-disc list-inside">
-                        <li><b>Death Phase (Overs 16-20):</b> Baseline 1.50x, scaling up to 2.20x in tight chases.</li>
+                    <ul class="text-xs text-slate-400 space-y-1 list-disc list-inside">
+                        <li><b>1st Innings Death Phase (Overs 16&ndash;20):</b> Scaled from 1.50x to 2.20x based on wicket attrition.</li>
                         <li><b>Playoff Weighting:</b> 1.20x for Qualifiers/Eliminators, 1.30x for IPL Finals.</li>
-                        <li><b>HP Threshold:</b> LI &ge; 1.50 captures the top 30% most pressurized deliveries.</li>
+                        <li><b>Gate Result:</b> 60,375 deliveries (30.04% of total 200,999 delivery dataset).</li>
                     </ul>
                 </div>
 
-                <div class="glass-card rounded-2xl p-6 border border-slate-800 space-y-4">
-                    <h3 class="text-base font-bold text-emerald-400 flex items-center gap-2">
-                        <span>2. Empirical Bayes Shrinkage & Contextual Multipliers</span>
+                <!-- Card 2: 17-Stadium Venue Pitch Pars -->
+                <div class="glass-card rounded-2xl p-6 border border-slate-800 space-y-3">
+                    <h3 class="text-base font-bold text-indigo-400 flex items-center gap-2">
+                        <span>2. 17-Stadium Venue Pitch Par Calibration</span>
                     </h3>
                     <p class="text-xs text-slate-300 leading-relaxed">
-                        To neutralize small-sample skew, all metrics are shrunken toward prior means:
+                        Scoring 180 at Chinnaswamy is below par, while scoring 155 at Chepauk is match-winning. We calibrated exact stadium par rates (Par_venue) using 87,074 pure IPL deliveries:
                     </p>
-                    <div class="bg-slate-900/80 p-3 rounded-lg text-xs font-mono text-emerald-300 border border-slate-800">
-                        Metric_shrunken = (N_balls / (N_balls + K)) &times; Metric_raw + (K / (N_balls + K)) &times; Prior_mean
+                    <div class="math-block">
+                        &Delta;SR_venue = HP_SR - Par_venue(batting)<br>
+                        &Delta;Econ_venue = Par_venue(bowling) - HP_Economy
                     </div>
-                    <ul class="text-xs text-slate-400 space-y-1.5 list-disc list-inside">
-                        <li><b>Sample Penalty (K=50 balls):</b> Eliminates one-innings wonders.</li>
-                        <li><b>Opposition Tiering:</b> 1.15x run scaling against 53 elite tagged bowlers.</li>
-                        <li><b>Tailender Discount:</b> 0.70x weight on wickets taken against batters #7&ndash;#11.</li>
+                    <ul class="text-xs text-slate-400 space-y-1 list-disc list-inside">
+                        <li><b>SMS Stadium Jaipur (RR Home):</b> Calibrated par of 8.42 RPO.</li>
+                        <li><b>Barsapara Guwahati (RR Second Home):</b> Calibrated par of 9.38 RPO.</li>
+                        <li><b>Decouples Stat-Padding:</b> Rewarding players who outperform venue context rather than flat batting wickets.</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3: Opposition Quality & Tailender Discounting -->
+                <div class="glass-card rounded-2xl p-6 border border-slate-800 space-y-3">
+                    <h3 class="text-base font-bold text-emerald-400 flex items-center gap-2">
+                        <span>3. Opposition Quality Tiering & Tailender Filter</span>
+                    </h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        A boundary struck off Jasprit Bumrah carries fundamentally higher win equity than one off a part-time 6th bowler:
+                    </p>
+                    <div class="math-block">
+                        Runs_adjusted = Runs &times; (1.15 if Bowler &isin; 53 Elite Frontline else 1.00)<br>
+                        Wkts_adjusted = Wickets &times; (0.70 if Batter &isin; #7&ndash;#11 Tailender else 1.00)
+                    </div>
+                    <ul class="text-xs text-slate-400 space-y-1 list-disc list-inside">
+                        <li><b>53 Elite Bowlers Tagged:</b> Multiplier applied to punish soft-run accumulation.</li>
+                        <li><b>Tailender Discount:</b> Penalizes bowlers who farm cheap wickets against lower-order dismissals.</li>
+                    </ul>
+                </div>
+
+                <!-- Card 4: Empirical Bayes Shrinkage -->
+                <div class="glass-card rounded-2xl p-6 border border-slate-800 space-y-3">
+                    <h3 class="text-base font-bold text-pink-400 flex items-center gap-2">
+                        <span>4. Empirical Bayes Shrinkage (K = 50 Balls)</span>
+                    </h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        To eliminate small-sample noise and one-innings wonders without discarding rare specialists:
+                    </p>
+                    <div class="math-block">
+                        Metric_shrunk = (N / (N + K)) &times; Metric_raw + (K / (N + K)) &times; &mu;_prior<br>
+                        Sample_Confidence = min(1.0, sqrt(N_hp / 250))
+                    </div>
+                    <ul class="text-xs text-slate-400 space-y-1 list-disc list-inside">
+                        <li><b>Batting Priors:</b> &mu;_SR = 135.0, &mu;_Dot% = 36.0%.</li>
+                        <li><b>Bowling Priors:</b> &mu;_ER = 9.20, &mu;_Wkt% = 7.0%.</li>
+                        <li><b>Volume Gate:</b> Minimum qualification threshold of 200 HP deliveries.</li>
+                    </ul>
+                </div>
+
+                <!-- Card 5: Composite Pressure Scores (CBPS) -->
+                <div class="glass-card rounded-2xl p-6 border border-slate-800 space-y-3">
+                    <h3 class="text-base font-bold text-yellow-400 flex items-center gap-2">
+                        <span>5. Composite Batter & Bowler Pressure Scores (CBPS)</span>
+                    </h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Multi-criteria standard normal score weighting normalized across all eligible contenders:
+                    </p>
+                    <div class="math-block">
+                        CBPS_bat = 0.30&middot;z_SR + 0.25&middot;z_&Delta;SR + 0.20&middot;z_DotRed + 0.15&middot;z_Bnd + 0.10&middot;z_Cons<br>
+                        CBPS_bowl = 0.30&middot;z_ER + 0.25&middot;z_Wkt + 0.15&middot;z_Dot + 0.15&middot;z_Bnd + 0.15&middot;z_Cons
+                    </div>
+                    <ul class="text-xs text-slate-400 space-y-1 list-disc list-inside">
+                        <li><b>z-score Normalization:</b> Zero-mean unit-variance scaling on shrunken features.</li>
+                        <li><b>Reliability Weighting:</b> Rewards sustained multi-campaign execution.</li>
+                    </ul>
+                </div>
+
+                <!-- Card 6: Statistical Validation & Limitations -->
+                <div class="glass-card rounded-2xl p-6 border border-slate-800 space-y-3">
+                    <h3 class="text-base font-bold text-purple-400 flex items-center gap-2">
+                        <span>6. Statistical Validation & Limitations</span>
+                    </h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Rigorous statistical verification and transparent acknowledgement of analytical boundaries:
+                    </p>
+                    <div class="math-block">
+                        Split-Half Reliability: r = 0.94 (Peak Statistical Stability across Even/Odd match IDs)
+                    </div>
+                    <ul class="text-xs text-slate-400 space-y-1 list-disc list-inside">
+                        <li><b>2nd Innings Dew Factor:</b> Tracked via venue-innings splits where evening dew inflates chasing power.</li>
+                        <li><b>Fielding Catch Bias:</b> Expected Wickets (xW) recommended for future optical camera integration.</li>
+                        <li><b>Tactical Stratification:</b> Segmented into Anchor/Top-Order (&le;14 overs) vs Death Finisher (15&ndash;20 overs).</li>
                     </ul>
                 </div>
             </div>
@@ -611,12 +705,12 @@ def build_final_master_dashboard():
                 <p class="text-[11px] text-slate-500 mt-0.5">Designed & Engineered by <b class="text-white">Mohammed Aleem Bukkapatnam</b> (M.S. in Artificial Intelligence)</p>
             </div>
             
-            <div class="flex flex-wrap items-center gap-4 text-xs">
+            <div class="flex flex-wrap items-center gap-3 text-xs">
                 <a href="mailto:mohammedaleem1404@gmail.com" class="hover:text-pink-400 transition">mohammedaleem1404@gmail.com</a>
                 <span class="text-slate-700">&bull;</span>
-                <a href="https://wa.me/447818150412" target="_blank" class="hover:text-emerald-400 transition">+44 7818150412</a>
+                <a href="tel:+447818150412" class="hover:text-indigo-400 transition" title="Available for Calls & WhatsApp">Call & WA: +44 7818150412</a>
                 <span class="text-slate-700">&bull;</span>
-                <a href="https://wa.me/917396600322" target="_blank" class="hover:text-emerald-400 transition">+91 7396600322</a>
+                <a href="https://wa.me/917396600322" target="_blank" class="hover:text-emerald-400 transition" title="WhatsApp Only">WA Only: +91 7396600322</a>
                 <span class="text-slate-700">&bull;</span>
                 <a href="https://www.linkedin.com/in/mohammed-aleem-bukkapatnam/" target="_blank" class="hover:text-blue-400 transition">LinkedIn</a>
                 <span class="text-slate-700">&bull;</span>
@@ -998,7 +1092,6 @@ def build_final_master_dashboard():
             Plotly.newPlot('plot-bowlers-matrix', [bowlTracePool, bowlTraceTop], layoutBowl, {{ responsive: true, displayModeBar: false }});
         }}
 
-        // Run immediately and on DOMContentLoaded
         renderEvolutionTables();
         refreshTables();
         if (document.readyState === 'loading') {{
