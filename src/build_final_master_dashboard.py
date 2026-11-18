@@ -12,17 +12,22 @@ def build_final_master_dashboard():
     active_bat_csv = 'rr-submission/v4/stage4_consistency_scoring/active_batters_v4_master.csv'
     active_bowl_csv = 'rr-submission/v4/stage4_consistency_scoring/active_bowlers_v4_master.csv'
     
-    df_top_bat = pd.read_csv(top_bat_csv)
-    df_top_bowl = pd.read_csv(top_bowl_csv)
-    df_active_bat = pd.read_csv(active_bat_csv)
-    df_active_bowl = pd.read_csv(active_bowl_csv)
+    df_top_bat = pd.read_csv(top_bat_csv).fillna(0)
+    df_top_bowl = pd.read_csv(top_bowl_csv).fillna(0)
+    df_active_bat = pd.read_csv(active_bat_csv).fillna(0)
+    df_active_bowl = pd.read_csv(active_bowl_csv).fillna(0)
     
-    top10_bat_list = df_top_bat.to_dict(orient='records')
-    top10_bowl_list = df_top_bowl.to_dict(orient='records')
+    # Ensure boolean flags are clean python booleans
+    for df in [df_active_bat, df_active_bowl]:
+        if 'is_auction_target' in df.columns:
+            df['is_auction_target'] = df['is_auction_target'].apply(lambda x: True if str(x).lower() == 'true' else False)
+        if 'team_status' in df.columns:
+            df['team_status'] = df['team_status'].fillna('Active').astype(str)
+
     all_bat_list = df_active_bat.to_dict(orient='records')
     all_bowl_list = df_active_bowl.to_dict(orient='records')
     
-    # Version comparison data
+    # Clean version comparison data
     v_batters = [
         {"rank": 1, "v1": "MS Dhoni", "v1_s": 1.64, "v2": "Naman Dhir", "v2_s": 1.48, "v3": "Naman Dhir", "v3_s": 1.48, "v4": "Naman Dhir", "v4_s": 1.60, "note": "Retains #1: Opp-Adjusted SR rises to 200.17 (+51.9 vs par)"},
         {"rank": 2, "v1": "Naman Dhir", "v1_s": 1.49, "v2": "Ashutosh Sharma", "v2_s": 1.38, "v3": "Ashutosh Sharma", "v3_s": 1.38, "v4": "Ashutosh Sharma", "v4_s": 1.27, "note": "Crisis Enforcer (+85.2 baseline elevation in chases)"},
@@ -73,13 +78,6 @@ def build_final_master_dashboard():
             background-color: #e4007c;
             color: white;
             box-shadow: 0 4px 14px 0 rgba(228, 0, 124, 0.39);
-        }}
-        .v-badge {{
-            display: inline-block;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-size: 10px;
-            font-weight: 700;
         }}
     </style>
 </head>
@@ -349,7 +347,7 @@ def build_final_master_dashboard():
                         <span class="w-2 h-2 rounded-full bg-pink-500"></span>
                         Top 10 High-Pressure Batters (Contextual Clutch Score)
                     </h3>
-                    <p class="text-xs text-slate-400">Pressure Gate: $LI \\ge 1.50$ &bull; Empirical Bayes Shrinkage ($K=50$) &bull; Opposition Quality Scaled</p>
+                    <p class="text-xs text-slate-400">Pressure Gate: LI &ge; 1.50 &bull; Empirical Bayes Shrinkage (K=50) &bull; Opposition Quality Scaled</p>
                 </div>
                 
                 <!-- Dual Interactive Toggles -->
@@ -509,15 +507,15 @@ def build_final_master_dashboard():
                         <span>1. Leverage Index Formulation</span>
                     </h3>
                     <p class="text-xs text-slate-300 leading-relaxed">
-                        Every delivery is assigned a dynamic Leverage Index ($LI$) defined by:
+                        Every delivery is assigned a dynamic Leverage Index (LI) defined by:
                     </p>
                     <div class="bg-slate-900/80 p-3 rounded-lg text-xs font-mono text-pink-300 border border-slate-800">
                         LI = Phase_Weight &times; Margin_Weight &times; Stage_Multiplier
                     </div>
                     <ul class="text-xs text-slate-400 space-y-1.5 list-disc list-inside">
-                        <li><b>Death Phase (Overs 16-20):</b> Baseline $1.50\times$, scaling up to $2.20\times$ in 1-wicket situations.</li>
-                        <li><b>Playoff Weighting:</b> $1.20\times$ for Qualifiers/Eliminators, $1.30\times$ for IPL Finals.</li>
-                        <li><b>HP Threshold:</b> $LI \ge 1.50$ captures the top 30% most pressurized deliveries.</li>
+                        <li><b>Death Phase (Overs 16-20):</b> Baseline 1.50x, scaling up to 2.20x in tight chases.</li>
+                        <li><b>Playoff Weighting:</b> 1.20x for Qualifiers/Eliminators, 1.30x for IPL Finals.</li>
+                        <li><b>HP Threshold:</b> LI &ge; 1.50 captures the top 30% most pressurized deliveries.</li>
                     </ul>
                 </div>
 
@@ -532,9 +530,9 @@ def build_final_master_dashboard():
                         Metric_shrunken = (N_balls / (N_balls + K)) &times; Metric_raw + (K / (N_balls + K)) &times; Prior_mean
                     </div>
                     <ul class="text-xs text-slate-400 space-y-1.5 list-disc list-inside">
-                        <li><b>Sample Penalty ($K=50$ balls):</b> Eliminates one-innings wonders.</li>
-                        <li><b>Opposition Tiering:</b> $1.15\times$ run scaling against 53 elite tagged bowlers.</li>
-                        <li><b>Tailender Discount:</b> $0.70\times$ weight on wickets taken against batters #7&ndash;#11.</li>
+                        <li><b>Sample Penalty (K=50 balls):</b> Eliminates one-innings wonders.</li>
+                        <li><b>Opposition Tiering:</b> 1.15x run scaling against 53 elite tagged bowlers.</li>
+                        <li><b>Tailender Discount:</b> 0.70x weight on wickets taken against batters #7&ndash;#11.</li>
                     </ul>
                 </div>
             </div>
@@ -585,8 +583,8 @@ def build_final_master_dashboard():
             if (isFreeOnly) {{
                 pool = pool.filter(b => b.is_auction_target === true);
             }}
-            const scoreKey = isHomeGround ? 'cbps_home' : 'cbps_final';
-            pool.sort((a, b) => b[scoreKey] - a[scoreKey]);
+            const scoreKey = isHomeGround ? 'rr_home_score' : 'cbps_score_v4';
+            pool.sort((a, b) => (Number(b[scoreKey]) || 0) - (Number(a[scoreKey]) || 0));
             return pool.slice(0, 10);
         }}
 
@@ -595,8 +593,8 @@ def build_final_master_dashboard():
             if (isFreeOnly) {{
                 pool = pool.filter(b => b.is_auction_target === true);
             }}
-            const scoreKey = isHomeGround ? 'cbps_home' : 'cbps_final';
-            pool.sort((a, b) => b[scoreKey] - a[scoreKey]);
+            const scoreKey = isHomeGround ? 'rr_home_score' : 'cbps_score_v4';
+            pool.sort((a, b) => (Number(b[scoreKey]) || 0) - (Number(a[scoreKey]) || 0));
             return pool.slice(0, 10);
         }}
 
@@ -663,7 +661,7 @@ def build_final_master_dashboard():
         }}
 
         function refreshTables() {{
-            const scoreKey = isHomeGround ? 'cbps_home' : 'cbps_final';
+            const scoreKey = isHomeGround ? 'rr_home_score' : 'cbps_score_v4';
             renderBatters(getFilteredBatters(), scoreKey);
             renderBowlers(getFilteredBowlers(), scoreKey);
             if (!document.getElementById('sec-quadrant').classList.contains('hidden')) {{
@@ -674,14 +672,22 @@ def build_final_master_dashboard():
         function renderBatters(batters, scoreKey) {{
             const tbody = document.getElementById('batters-tbody');
             const cards = document.getElementById('batters-cards');
+            if (!tbody) return;
             tbody.innerHTML = '';
-            cards.innerHTML = '';
+            if (cards) cards.innerHTML = '';
 
             batters.forEach((b, idx) => {{
                 const rank = idx + 1;
-                const score = b[scoreKey];
-                const isRR = b.team_status && b.team_status.includes('RR');
+                const score = Number(b[scoreKey]) || 0;
+                const isRR = b.team_status && String(b.team_status).includes('RR');
                 const isAuction = b.is_auction_target;
+
+                const hpBalls = Number(b.hp_balls) || 0;
+                const hpSr = Number(b.hp_sr) || 0;
+                const oppSr = Number(b.hp_opp_sr) || hpSr;
+                const dVenue = Number(b.delta_sr_venue) || 0;
+                const dBase = Number(b.delta_sr_baseline) || 0;
+                const cons = Number(b.consistency_rate) || 0;
 
                 const row = document.createElement('tr');
                 row.className = isRR ? 'bg-pink-950/20 text-white border-l-4 border-pink-500' : 'hover:bg-slate-900/50';
@@ -696,17 +702,17 @@ def build_final_master_dashboard():
                             ${{b.team_status || 'Active'}}
                         </span>
                     </td>
-                    <td class="p-3 text-slate-300">${{b.hp_balls}}</td>
-                    <td class="p-3 text-slate-300">${{b.hp_sr.toFixed(1)}}</td>
-                    <td class="p-3 font-bold text-pink-400">${{b.hp_opp_sr.toFixed(1)}}</td>
-                    <td class="p-3 text-pink-400 font-semibold">+${{b.delta_sr_venue.toFixed(1)}}</td>
-                    <td class="p-3 text-indigo-400 font-semibold">+${{b.delta_sr_baseline.toFixed(1)}}</td>
-                    <td class="p-3 text-emerald-400 font-semibold">${{(b.consistency_rate * 100).toFixed(0)}}%</td>
+                    <td class="p-3 text-slate-300">${{hpBalls}}</td>
+                    <td class="p-3 text-slate-300">${{hpSr.toFixed(1)}}</td>
+                    <td class="p-3 font-bold text-pink-400">${{oppSr.toFixed(1)}}</td>
+                    <td class="p-3 text-pink-400 font-semibold">+${{dVenue.toFixed(1)}}</td>
+                    <td class="p-3 text-indigo-400 font-semibold">+${{dBase.toFixed(1)}}</td>
+                    <td class="p-3 text-emerald-400 font-semibold">${{(cons * 100).toFixed(0)}}%</td>
                     <td class="p-3 text-right font-extrabold text-pink-400 text-sm">+${{score.toFixed(2)}}</td>
                 `;
                 tbody.appendChild(row);
 
-                if (rank <= 3) {{
+                if (cards && rank <= 3) {{
                     const card = document.createElement('div');
                     card.className = 'glass-card p-4 rounded-xl border border-slate-800 space-y-2';
                     card.innerHTML = `
@@ -723,15 +729,15 @@ def build_final_master_dashboard():
                         <div class="grid grid-cols-3 gap-2 pt-1 text-center">
                             <div class="bg-slate-900/60 p-2 rounded-lg">
                                 <p class="text-[10px] text-slate-400">Opp-SR</p>
-                                <p class="text-xs font-bold text-white">${{b.hp_opp_sr.toFixed(1)}}</p>
+                                <p class="text-xs font-bold text-white">${{oppSr.toFixed(1)}}</p>
                             </div>
                             <div class="bg-slate-900/60 p-2 rounded-lg">
                                 <p class="text-[10px] text-pink-400">&Delta;Venue</p>
-                                <p class="text-xs font-bold text-pink-400">+${{b.delta_sr_venue.toFixed(1)}}</p>
+                                <p class="text-xs font-bold text-pink-400">+${{dVenue.toFixed(1)}}</p>
                             </div>
                             <div class="bg-slate-900/60 p-2 rounded-lg">
                                 <p class="text-[10px] text-emerald-400">Reliability</p>
-                                <p class="text-xs font-bold text-emerald-400">${{(b.consistency_rate*100).toFixed(0)}}%</p>
+                                <p class="text-xs font-bold text-emerald-400">${{(cons * 100).toFixed(0)}}%</p>
                             </div>
                         </div>
                     `;
@@ -743,14 +749,22 @@ def build_final_master_dashboard():
         function renderBowlers(bowlers, scoreKey) {{
             const tbody = document.getElementById('bowlers-tbody');
             const cards = document.getElementById('bowlers-cards');
+            if (!tbody) return;
             tbody.innerHTML = '';
-            cards.innerHTML = '';
+            if (cards) cards.innerHTML = '';
 
             bowlers.forEach((b, idx) => {{
                 const rank = idx + 1;
-                const score = b[scoreKey];
-                const isRR = b.team_status && b.team_status.includes('RR');
+                const score = Number(b[scoreKey]) || 0;
+                const isRR = b.team_status && String(b.team_status).includes('RR');
                 const isAuction = b.is_auction_target;
+
+                const hpBalls = Number(b.hp_balls) || 0;
+                const hpEcon = Number(b.hp_econ) || 0;
+                const dVenue = Number(b.delta_econ_venue) || 0;
+                const dBase = Number(b.delta_econ_baseline) || 0;
+                const wktRate = Number(b.hp_wkt_rate) || 0;
+                const cons = Number(b.consistency_rate) || 0;
 
                 const row = document.createElement('tr');
                 row.className = rank === 1 ? 'bg-emerald-950/20 text-white border-l-4 border-emerald-500' : 'hover:bg-slate-900/50';
@@ -762,17 +776,17 @@ def build_final_master_dashboard():
                             ${{b.team_status || 'Active'}}
                         </span>
                     </td>
-                    <td class="p-3 text-slate-300">${{b.hp_balls}}</td>
-                    <td class="p-3 font-bold text-white">${{b.hp_econ.toFixed(2)}}</td>
-                    <td class="p-3 text-emerald-400 font-semibold">+${{b.delta_econ_venue.toFixed(2)}}</td>
-                    <td class="p-3 text-indigo-400 font-semibold">${{b.delta_econ_baseline > 0 ? '+' : ''}}${{b.delta_econ_baseline.toFixed(2)}}</td>
-                    <td class="p-3 text-slate-300">${{b.hp_wkt_rate.toFixed(1)}}%</td>
-                    <td class="p-3 text-emerald-400 font-semibold">${{(b.consistency_rate * 100).toFixed(0)}}%</td>
+                    <td class="p-3 text-slate-300">${{hpBalls}}</td>
+                    <td class="p-3 font-bold text-white">${{hpEcon.toFixed(2)}}</td>
+                    <td class="p-3 text-emerald-400 font-semibold">+${{dVenue.toFixed(2)}}</td>
+                    <td class="p-3 text-indigo-400 font-semibold">${{dBase > 0 ? '+' : ''}}${{dBase.toFixed(2)}}</td>
+                    <td class="p-3 text-slate-300">${{wktRate.toFixed(1)}}%</td>
+                    <td class="p-3 text-emerald-400 font-semibold">${{(cons * 100).toFixed(0)}}%</td>
                     <td class="p-3 text-right font-extrabold text-emerald-400 text-sm">+${{score.toFixed(2)}}</td>
                 `;
                 tbody.appendChild(row);
 
-                if (rank <= 3) {{
+                if (cards && rank <= 3) {{
                     const card = document.createElement('div');
                     card.className = 'glass-card p-4 rounded-xl border border-slate-800 space-y-2';
                     card.innerHTML = `
@@ -789,15 +803,15 @@ def build_final_master_dashboard():
                         <div class="grid grid-cols-3 gap-2 pt-1 text-center">
                             <div class="bg-slate-900/60 p-2 rounded-lg">
                                 <p class="text-[10px] text-slate-400">HP Econ</p>
-                                <p class="text-xs font-bold text-white">${{b.hp_econ.toFixed(2)}}</p>
+                                <p class="text-xs font-bold text-white">${{hpEcon.toFixed(2)}}</p>
                             </div>
                             <div class="bg-slate-900/60 p-2 rounded-lg">
                                 <p class="text-[10px] text-emerald-400">&Delta;Venue</p>
-                                <p class="text-xs font-bold text-emerald-400">+${{b.delta_econ_venue.toFixed(2)}}</p>
+                                <p class="text-xs font-bold text-emerald-400">+${{dVenue.toFixed(2)}}</p>
                             </div>
                             <div class="bg-slate-900/60 p-2 rounded-lg">
                                 <p class="text-[10px] text-indigo-400">Quality Wkt%</p>
-                                <p class="text-xs font-bold text-indigo-400">${{b.hp_wkt_rate.toFixed(1)}}%</p>
+                                <p class="text-xs font-bold text-indigo-400">${{wktRate.toFixed(1)}}%</p>
                             </div>
                         </div>
                     `;
@@ -808,36 +822,40 @@ def build_final_master_dashboard():
 
         function renderEvolutionTables() {{
             const batTbody = document.getElementById('evolution-batters-tbody');
-            batTbody.innerHTML = '';
-            evolutionBatters.forEach(row => {{
-                const tr = document.createElement('tr');
-                tr.className = 'hover:bg-slate-900/50';
-                tr.innerHTML = `
-                    <td class="p-3 text-center font-bold text-slate-400">#${{row.rank}}</td>
-                    <td class="p-3"><span class="font-medium text-slate-300">${{row.v1}}</span> <span class="text-[11px] text-slate-500">(+${{row.v1_s.toFixed(2)}})</span></td>
-                    <td class="p-3"><span class="font-medium text-slate-300">${{row.v2}}</span> <span class="text-[11px] text-slate-500">(+${{row.v2_s.toFixed(2)}})</span></td>
-                    <td class="p-3"><span class="font-medium text-slate-300">${{row.v3}}</span> <span class="text-[11px] text-slate-500">(+${{row.v3_s.toFixed(2)}})</span></td>
-                    <td class="p-3 bg-pink-950/20 border-l border-pink-500/30"><b class="text-pink-400">${{row.v4}}</b> <span class="text-[11px] font-bold text-pink-300">(+${{row.v4_s.toFixed(2)}})</span></td>
-                    <td class="p-3 text-[11px] text-slate-300">${{row.note}}</td>
-                `;
-                batTbody.appendChild(tr);
-            }});
+            if (batTbody) {{
+                batTbody.innerHTML = '';
+                evolutionBatters.forEach(row => {{
+                    const tr = document.createElement('tr');
+                    tr.className = 'hover:bg-slate-900/50';
+                    tr.innerHTML = `
+                        <td class="p-3 text-center font-bold text-slate-400">#${{row.rank}}</td>
+                        <td class="p-3"><span class="font-medium text-slate-300">${{row.v1}}</span> <span class="text-[11px] text-slate-500">(+${{row.v1_s.toFixed(2)}})</span></td>
+                        <td class="p-3"><span class="font-medium text-slate-300">${{row.v2}}</span> <span class="text-[11px] text-slate-500">(+${{row.v2_s.toFixed(2)}})</span></td>
+                        <td class="p-3"><span class="font-medium text-slate-300">${{row.v3}}</span> <span class="text-[11px] text-slate-500">(+${{row.v3_s.toFixed(2)}})</span></td>
+                        <td class="p-3 bg-pink-950/20 border-l border-pink-500/30"><b class="text-pink-400">${{row.v4}}</b> <span class="text-[11px] font-bold text-pink-300">(+${{row.v4_s.toFixed(2)}})</span></td>
+                        <td class="p-3 text-[11px] text-slate-300">${{row.note}}</td>
+                    `;
+                    batTbody.appendChild(tr);
+                }});
+            }}
 
             const bowlTbody = document.getElementById('evolution-bowlers-tbody');
-            bowlTbody.innerHTML = '';
-            evolutionBowlers.forEach(row => {{
-                const tr = document.createElement('tr');
-                tr.className = 'hover:bg-slate-900/50';
-                tr.innerHTML = `
-                    <td class="p-3 text-center font-bold text-slate-400">#${{row.rank}}</td>
-                    <td class="p-3"><span class="font-medium text-slate-300">${{row.v1}}</span> <span class="text-[11px] text-slate-500">(+${{row.v1_s.toFixed(2)}})</span></td>
-                    <td class="p-3"><span class="font-medium text-slate-300">${{row.v2}}</span> <span class="text-[11px] text-slate-500">(+${{row.v2_s.toFixed(2)}})</span></td>
-                    <td class="p-3"><span class="font-medium text-slate-300">${{row.v3}}</span> <span class="text-[11px] text-slate-500">(+${{row.v3_s.toFixed(2)}})</span></td>
-                    <td class="p-3 bg-emerald-950/20 border-l border-emerald-500/30"><b class="text-emerald-400">${{row.v4}}</b> <span class="text-[11px] font-bold text-emerald-300">(+${{row.v4_s.toFixed(2)}})</span></td>
-                    <td class="p-3 text-[11px] text-slate-300">${{row.note}}</td>
-                `;
-                bowlTbody.appendChild(tr);
-            }});
+            if (bowlTbody) {{
+                bowlTbody.innerHTML = '';
+                evolutionBowlers.forEach(row => {{
+                    const tr = document.createElement('tr');
+                    tr.className = 'hover:bg-slate-900/50';
+                    tr.innerHTML = `
+                        <td class="p-3 text-center font-bold text-slate-400">#${{row.rank}}</td>
+                        <td class="p-3"><span class="font-medium text-slate-300">${{row.v1}}</span> <span class="text-[11px] text-slate-500">(+${{row.v1_s.toFixed(2)}})</span></td>
+                        <td class="p-3"><span class="font-medium text-slate-300">${{row.v2}}</span> <span class="text-[11px] text-slate-500">(+${{row.v2_s.toFixed(2)}})</span></td>
+                        <td class="p-3"><span class="font-medium text-slate-300">${{row.v3}}</span> <span class="text-[11px] text-slate-500">(+${{row.v3_s.toFixed(2)}})</span></td>
+                        <td class="p-3 bg-emerald-950/20 border-l border-emerald-500/30"><b class="text-emerald-400">${{row.v4}}</b> <span class="text-[11px] font-bold text-emerald-300">(+${{row.v4_s.toFixed(2)}})</span></td>
+                        <td class="p-3 text-[11px] text-slate-300">${{row.note}}</td>
+                    `;
+                    bowlTbody.appendChild(tr);
+                }});
+            }}
         }}
 
         function switchTab(tabId) {{
@@ -845,13 +863,17 @@ def build_final_master_dashboard():
             document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.add('text-slate-400'));
             
             const activeBtn = document.getElementById('tab-' + tabId);
-            activeBtn.classList.add('active', 'text-white');
-            activeBtn.classList.remove('text-slate-400');
+            if (activeBtn) {{
+                activeBtn.classList.add('active', 'text-white');
+                activeBtn.classList.remove('text-slate-400');
+            }}
 
             ['evolution', 'batters', 'bowlers', 'quadrant', 'methodology'].forEach(id => {{
-                document.getElementById('sec-' + id).classList.add('hidden');
+                const el = document.getElementById('sec-' + id);
+                if (el) el.classList.add('hidden');
             }});
-            document.getElementById('sec-' + tabId).classList.remove('hidden');
+            const sec = document.getElementById('sec-' + tabId);
+            if (sec) sec.classList.remove('hidden');
 
             if (tabId === 'quadrant') {{
                 renderQuadrantCharts();
@@ -863,16 +885,16 @@ def build_final_master_dashboard():
             const currentBowlers = getFilteredBowlers();
 
             const batTracePool = {{
-                x: allBatters.map(d => d.delta_sr_baseline),
-                y: allBatters.map(d => d.delta_sr_venue),
+                x: allBatters.map(d => Number(d.delta_sr_baseline) || 0),
+                y: allBatters.map(d => Number(d.delta_sr_venue) || 0),
                 text: allBatters.map(d => d.player_name + ' (' + (d.team_status || 'Active') + ')'),
                 mode: 'markers',
                 marker: {{ size: 8, color: '#64748b', opacity: 0.5 }},
                 name: 'Player Pool'
             }};
             const batTraceTop = {{
-                x: currentBatters.map(d => d.delta_sr_baseline),
-                y: currentBatters.map(d => d.delta_sr_venue),
+                x: currentBatters.map(d => Number(d.delta_sr_baseline) || 0),
+                y: currentBatters.map(d => Number(d.delta_sr_venue) || 0),
                 text: currentBatters.map(d => '<b>' + d.player_name + '</b><br>' + (d.team_status || '')),
                 mode: 'markers+text',
                 textposition: 'top center',
@@ -891,16 +913,16 @@ def build_final_master_dashboard():
             Plotly.newPlot('plot-batters-matrix', [batTracePool, batTraceTop], layoutBat, {{ responsive: true, displayModeBar: false }});
 
             const bowlTracePool = {{
-                x: allBowlers.map(d => d.hp_wkt_rate),
-                y: allBowlers.map(d => d.delta_econ_venue),
+                x: allBowlers.map(d => Number(d.hp_wkt_rate) || 0),
+                y: allBowlers.map(d => Number(d.delta_econ_venue) || 0),
                 text: allBowlers.map(d => d.player_name + ' (' + (d.team_status || 'Active') + ')'),
                 mode: 'markers',
                 marker: {{ size: 8, color: '#64748b', opacity: 0.5 }},
                 name: 'Player Pool'
             }};
             const bowlTraceTop = {{
-                x: currentBowlers.map(d => d.hp_wkt_rate),
-                y: currentBowlers.map(d => d.delta_econ_venue),
+                x: currentBowlers.map(d => Number(d.hp_wkt_rate) || 0),
+                y: currentBowlers.map(d => Number(d.delta_econ_venue) || 0),
                 text: currentBowlers.map(d => '<b>' + d.player_name + '</b><br>' + (d.team_status || '')),
                 mode: 'markers+text',
                 textposition: 'top center',
@@ -919,17 +941,20 @@ def build_final_master_dashboard():
             Plotly.newPlot('plot-bowlers-matrix', [bowlTracePool, bowlTraceTop], layoutBowl, {{ responsive: true, displayModeBar: false }});
         }}
 
-        // Initial setup
-        document.addEventListener('DOMContentLoaded', () => {{
-            renderEvolutionTables();
-            refreshTables();
-        }});
+        // Run immediately and on DOMContentLoaded
+        renderEvolutionTables();
+        refreshTables();
+        if (document.readyState === 'loading') {{
+            document.addEventListener('DOMContentLoaded', () => {{
+                renderEvolutionTables();
+                refreshTables();
+            }});
+        }}
     </script>
 </body>
 </html>
 """
 
-    # Write to root index.html, docs/index.html, and rr-submission/v4/dashboard/index.html
     paths = [
         'index.html',
         'docs/index.html',
@@ -943,4 +968,3 @@ def build_final_master_dashboard():
 
 if __name__ == '__main__':
     build_final_master_dashboard()
-
