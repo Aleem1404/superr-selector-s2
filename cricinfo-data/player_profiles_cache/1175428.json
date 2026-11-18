@@ -1,0 +1,16 @@
+{
+  "full_name": "Anshul Kamboj",
+  "short_name": "Anshul Kamboj",
+  "display_name": "Anshul Kamboj",
+  "first_name": "Anshul",
+  "last_name": "Kamboj",
+  "date_of_birth": "6/12/2000",
+  "age": 25,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Bowling allrounder",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm medium",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/1175428.png",
+  "is_active": true
+}

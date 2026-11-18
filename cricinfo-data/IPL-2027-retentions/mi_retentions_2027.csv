@@ -1,0 +1,17 @@
+team_name,team_code,player_name,full_name,is_overseas,is_traded,retention_salary_crores,retention_salary_lakhs,retention_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Mumbai Indians,MI,Arshdeep Singh,Arshdeep Singh,False,True,18.0,1800.0,₹18.00 Cr,Bowler,India,Left hand Bat,Left arm Medium fast,1125976
+Mumbai Indians,MI,Jasprit Bumrah,Jasprit Jasbirsingh Bumrah,False,False,18.0,1800.0,₹18.00 Cr,Bowler,India,Right hand Bat,Right arm Fast,625383
+Mumbai Indians,MI,Suryakumar Yadav,Suryakumar Ashok Yadav,False,False,16.35,1635.0,₹16.35 Cr,Batter,India,Right hand Bat,"Right arm Medium, Right arm Offbreak",446507
+Mumbai Indians,MI,Rohit Sharma,Rohit Gurunath Sharma,False,False,16.3,1630.0,₹16.30 Cr,Top-order batter,India,Right hand Bat,Right arm Offbreak,34102
+Mumbai Indians,MI,Tilak Varma,Namboori Thakur Tilak Varma,False,False,8.0,800.0,₹8.00 Cr,Batting allrounder,India,Left hand Bat,Right arm Offbreak,1170265
+Mumbai Indians,MI,Naman Dhir,Naman Dhir,False,False,5.25,525.0,₹5.25 Cr,Middle-order batter,India,Right hand Bat,Right arm Offbreak,1287032
+Mumbai Indians,MI,Will Jacks,William George Jacks,True,False,5.25,525.0,₹5.25 Cr,Batting allrounder,England,Right hand Bat,Right arm Offbreak,897549
+Mumbai Indians,MI,Sherfane Rutherford,Sherfane Eviston Rutherford,True,False,2.6,260.0,₹2.60 Cr,Middle-order batter,West Indies,Left hand Bat,Right arm Fast medium,914541
+Mumbai Indians,MI,Mitchell Santner,Mitchell Josef Santner,True,False,2.0,200.0,₹2.00 Cr,Bowling allrounder,New Zealand,Left hand Bat,Slow Left arm Orthodox,502714
+Mumbai Indians,MI,Shardul Thakur,Shardul Narendra Thakur,False,False,2.0,200.0,₹2.00 Cr,Bowling allrounder,India,Right hand Bat,Right arm Medium,475281
+Mumbai Indians,MI,Quinton de Kock,Quinton de Kock,True,False,1.0,100.0,₹1.00 Cr,Wicketkeeper batter,South Africa,Left hand Bat,,379143
+Mumbai Indians,MI,Ryan Rickelton,Ryan David Rickelton,True,False,1.0,100.0,₹1.00 Cr,Wicketkeeper batter,South Africa,Left hand Bat,,605661
+Mumbai Indians,MI,Corbin Bosch,Corbin Bosch,True,False,0.75,75.0,₹75 Lakh,Allrounder,South Africa,Right hand Bat,Right arm Fast medium,594322
+Mumbai Indians,MI,Ashwani Kumar,Ashwani Kumar,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Left hand Bat,Left arm Medium,1209126
+Mumbai Indians,MI,Raghu Sharma,Raghu Shivam Sharma,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Legbreak,1122621
+Mumbai Indians,MI,Raj Angad Bawa,Raj Angad Bawa,False,False,0.3,30.0,₹30 Lakh,Allrounder,India,Left hand Bat,Right arm Medium fast,1292502

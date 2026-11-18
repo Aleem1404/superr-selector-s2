@@ -1,0 +1,16 @@
+{
+  "full_name": "Nitesh Sedai",
+  "short_name": "Nitesh Sedai",
+  "display_name": "Nitesh Sedai",
+  "first_name": "Nitesh",
+  "last_name": "Sedai",
+  "date_of_birth": "8/2/1998",
+  "age": 28,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Unknown",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm offbreak",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

@@ -1,0 +1,11 @@
+team_name,team_code,player_name,full_name,is_overseas,previous_salary_crores,previous_salary_lakhs,previous_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Sunrisers Hyderabad,SRH,Travis Head,Travis Michael Head,True,14.0,1400.0,₹14.00 Cr,Middle-order batter,Australia,Left hand Bat,Right arm Offbreak,530011
+Sunrisers Hyderabad,SRH,Gerald Coetzee,Gerald Coetzee,True,2.0,200.0,₹2.00 Cr,Bowler,South Africa,Right hand Bat,Right arm Fast,596010
+Sunrisers Hyderabad,SRH,David Payne,David Alan Payne,True,1.5,150.0,₹1.50 Cr,Bowler,England,Right hand Bat,Left arm Fast medium,362710
+Sunrisers Hyderabad,SRH,Jaydev Unadkat,Jaydev Dipakbhai Unadkat,False,1.0,100.0,₹1.00 Cr,Bowler,India,Right hand Bat,Left arm Medium,390484
+Sunrisers Hyderabad,SRH,Dilshan Madushanka,Lokumarakkalage Dilshan Madushanka,True,0.75,75.0,₹75 Lakh,Bowler,Sri Lanka,Right hand Bat,Left arm Fast medium,793007
+Sunrisers Hyderabad,SRH,Kamindu Mendis,Pasqual Handi Kamindu Dilanka Mendis,True,0.75,75.0,₹75 Lakh,Allrounder,Sri Lanka,Left hand Bat,"Right arm Offbreak, Slow Left arm Orthodox",784373
+Sunrisers Hyderabad,SRH,Shivam Mavi,Shivam Pankaj Mavi,False,0.75,75.0,₹75 Lakh,Bowling allrounder,India,Right hand Bat,Right arm Fast medium,1079848
+Sunrisers Hyderabad,SRH,Amit Kumar,Amit Kumar,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Legbreak Googly,1512257
+Sunrisers Hyderabad,SRH,Onkar Tarmale,Onkar Tarmale,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Right arm Fast,1515304
+Sunrisers Hyderabad,SRH,R.S.Ambrish,R.S.Ambrish,False,0.3,30.0,₹30 Lakh,,India,,,

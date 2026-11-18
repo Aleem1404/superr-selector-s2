@@ -1,0 +1,260 @@
+import pandas as pd
+import os
+
+trades_data = [
+    {
+        'trade_event_id': 'IPL2027-TR-01',
+        'trade_date': 'November 2026',
+        'player_name': 'Hardik Pandya',
+        'from_team': 'Mumbai Indians',
+        'to_team': 'Punjab Kings',
+        'trade_type': 'Player Swap',
+        'role': 'All-rounder / Former MI Captain',
+        'trade_fee_crores': 18.00,
+        'trade_fee_inr': '₹18,00,00,000',
+        'previous_fee_crores': 16.35,
+        'fee_status': 'Increased (+₹1.65 cr from ₹16.35 cr)',
+        'traded_for_player': 'Arshdeep Singh',
+        'press_release_headline': 'Hardik Pandya and Arshdeep Singh complete major trade between PBKS and MI',
+        'press_release_url': 'https://www.iplt20.com/news/article/hardik-pandya-and-arshdeep-singh-complete-major-trade-between-pbks-and-mi',
+        'notes': 'Pandya ends his second stint with MI (4 IPL titles) and moves to PBKS at a revised fee of ₹18 crore.'
+    },
+    {
+        'trade_event_id': 'IPL2027-TR-01',
+        'trade_date': 'November 2026',
+        'player_name': 'Arshdeep Singh',
+        'from_team': 'Punjab Kings',
+        'to_team': 'Mumbai Indians',
+        'trade_type': 'Player Swap',
+        'role': 'Left-arm Fast Bowler',
+        'trade_fee_crores': 18.00,
+        'trade_fee_inr': '₹18,00,00,000',
+        'previous_fee_crores': 18.00,
+        'fee_status': 'Retained (Existing fee of ₹18 cr)',
+        'traded_for_player': 'Hardik Pandya',
+        'press_release_headline': 'Hardik Pandya and Arshdeep Singh complete major trade between PBKS and MI',
+        'press_release_url': 'https://www.iplt20.com/news/article/hardik-pandya-and-arshdeep-singh-complete-major-trade-between-pbks-and-mi',
+        'notes': 'PBKS all-time leading wicket-taker (111 wickets in 96 matches) moves to MI after 8 seasons.'
+    },
+    {
+        'trade_event_id': 'IPL2027-TR-02',
+        'trade_date': 'November 2026',
+        'player_name': 'Liam Livingstone',
+        'from_team': 'Sunrisers Hyderabad',
+        'to_team': 'Chennai Super Kings',
+        'trade_type': 'Four-Player Multi Trade',
+        'role': 'All-rounder',
+        'trade_fee_crores': 6.00,
+        'trade_fee_inr': '₹6,00,00,000',
+        'previous_fee_crores': 13.00,
+        'fee_status': 'Reduced (-₹7.00 cr from ₹13.00 cr)',
+        'traded_for_player': 'Khaleel Ahmed, Nathan Ellis (with Jack Edwards also joining CSK)',
+        'press_release_headline': 'CSK and SRH agree to four-player trade',
+        'press_release_url': 'https://www.iplt20.com/news/article/csk-and-srh-agree-to-four-player-trade',
+        'notes': 'England all-rounder Livingstone moves from SRH to CSK at a reduced fee of ₹6 crore.'
+    },
+    {
+        'trade_event_id': 'IPL2027-TR-02',
+        'trade_date': 'November 2026',
+        'player_name': 'Jack Edwards',
+        'from_team': 'Sunrisers Hyderabad',
+        'to_team': 'Chennai Super Kings',
+        'trade_type': 'Four-Player Multi Trade',
+        'role': 'Seam-bowling All-rounder',
+        'trade_fee_crores': 3.00,
+        'trade_fee_inr': '₹3,00,00,000',
+        'previous_fee_crores': 3.00,
+        'fee_status': 'Retained (Existing fee of ₹3 cr)',
+        'traded_for_player': 'Khaleel Ahmed, Nathan Ellis (with Liam Livingstone also joining CSK)',
+        'press_release_headline': 'CSK and SRH agree to four-player trade',
+        'press_release_url': 'https://www.iplt20.com/news/article/csk-and-srh-agree-to-four-player-trade',
+        'notes': 'Australian seam-bowling all-rounder joins CSK at his existing fee of ₹3 crore.'
+    },
+    {
+        'trade_event_id': 'IPL2027-TR-02',
+        'trade_date': 'November 2026',
+        'player_name': 'Khaleel Ahmed',
+        'from_team': 'Chennai Super Kings',
+        'to_team': 'Sunrisers Hyderabad',
+        'trade_type': 'Four-Player Multi Trade',
+        'role': 'Left-arm Fast Bowler',
+        'trade_fee_crores': 4.80,
+        'trade_fee_inr': '₹4,80,00,000',
+        'previous_fee_crores': 4.80,
+        'fee_status': 'Retained (Existing fee of ₹4.80 cr)',
+        'traded_for_player': 'Liam Livingstone, Jack Edwards (with Nathan Ellis also joining SRH)',
+        'press_release_headline': 'CSK and SRH agree to four-player trade',
+        'press_release_url': 'https://www.iplt20.com/news/article/csk-and-srh-agree-to-four-player-trade',
+        'notes': 'Left-arm pacer returns to SRH (represented SRH 2018-2021) at his existing fee of ₹4.80 crore.'
+    },
+    {
+        'trade_event_id': 'IPL2027-TR-02',
+        'trade_date': 'November 2026',
+        'player_name': 'Nathan Ellis',
+        'from_team': 'Chennai Super Kings',
+        'to_team': 'Sunrisers Hyderabad',
+        'trade_type': 'Four-Player Multi Trade',
+        'role': 'Fast Bowler',
+        'trade_fee_crores': 2.00,
+        'trade_fee_inr': '₹2,00,00,000',
+        'previous_fee_crores': 2.00,
+        'fee_status': 'Retained (Existing fee of ₹2 cr)',
+        'traded_for_player': 'Liam Livingstone, Jack Edwards (with Khaleel Ahmed also joining SRH)',
+        'press_release_headline': 'CSK and SRH agree to four-player trade',
+        'press_release_url': 'https://www.iplt20.com/news/article/csk-and-srh-agree-to-four-player-trade',
+        'notes': 'Australian death-overs specialist joins SRH at his existing fee of ₹2 crore.'
+    },
+    {
+        'trade_event_id': 'IPL2027-TR-03',
+        'trade_date': '14 Oct 2026',
+        'player_name': 'T. Natarajan',
+        'from_team': 'Delhi Capitals',
+        'to_team': 'Sunrisers Hyderabad',
+        'trade_type': 'Player Swap',
+        'role': 'Left-arm Seam Bowler',
+        'trade_fee_crores': 5.00,
+        'trade_fee_inr': '₹5,00,00,000',
+        'previous_fee_crores': 10.75,
+        'fee_status': 'Reduced (-₹5.75 cr from ₹10.75 cr)',
+        'traded_for_player': 'Zeeshan Ansari',
+        'press_release_headline': 'T. Natarajan returns to Sunrisers Hyderabad; Zeeshan Ansari moves to Delhi Capitals',
+        'press_release_url': 'https://www.iplt20.com/news/article/t-natarajan-returns-to-sunrisers-hyderabad-zeeshan-ansari-moves-to-delhi-capitals',
+        'notes': 'Natarajan returns to SRH (played 2020-2024, 19 wkts in 2024) at a revised fee of ₹5 crore.'
+    },
+    {
+        'trade_event_id': 'IPL2027-TR-03',
+        'trade_date': '14 Oct 2026',
+        'player_name': 'Zeeshan Ansari',
+        'from_team': 'Sunrisers Hyderabad',
+        'to_team': 'Delhi Capitals',
+        'trade_type': 'Player Swap',
+        'role': 'Leg-spinner',
+        'trade_fee_crores': 0.40,
+        'trade_fee_inr': '₹40,00,000',
+        'previous_fee_crores': 0.40,
+        'fee_status': 'Retained (Existing fee of ₹40 lakh)',
+        'traded_for_player': 'T. Natarajan',
+        'press_release_headline': 'T. Natarajan returns to Sunrisers Hyderabad; Zeeshan Ansari moves to Delhi Capitals',
+        'press_release_url': 'https://www.iplt20.com/news/article/t-natarajan-returns-to-sunrisers-hyderabad-zeeshan-ansari-moves-to-delhi-capitals',
+        'notes': '26-year-old leg-spinner moves from SRH to DC at his existing fee of ₹40 lakh.'
+    },
+    {
+        'trade_event_id': 'IPL2027-TR-04',
+        'trade_date': '23 Jun 2026',
+        'player_name': 'Rishabh Pant',
+        'from_team': 'Lucknow Super Giants',
+        'to_team': 'Delhi Capitals',
+        'trade_type': 'Player Swap',
+        'role': 'Wicketkeeper-batter / Former LSG Captain',
+        'trade_fee_crores': 15.00,
+        'trade_fee_inr': '₹15,00,00,000',
+        'previous_fee_crores': 27.00,
+        'fee_status': 'Reduced (-₹12.00 cr from ₹27.00 cr)',
+        'traded_for_player': 'Kuldeep Yadav',
+        'press_release_headline': 'Rishabh Pant and Kuldeep Yadav complete high-profile trade between DC and LSG',
+        'press_release_url': 'https://www.iplt20.com/news/article/rishabh-pant-and-kuldeep-yadav-complete-high-profile-trade-between-dc-and-lsg',
+        'notes': 'Former DC captain (111 apps, 43 matches captained) returns to DC at a revised fee of ₹15 crore after ₹27 cr auction buy.'
+    },
+    {
+        'trade_event_id': 'IPL2027-TR-04',
+        'trade_date': '23 Jun 2026',
+        'player_name': 'Kuldeep Yadav',
+        'from_team': 'Delhi Capitals',
+        'to_team': 'Lucknow Super Giants',
+        'trade_type': 'Player Swap',
+        'role': 'Left-arm Wrist Spinner',
+        'trade_fee_crores': 13.50,
+        'trade_fee_inr': '₹13,50,00,000',
+        'previous_fee_crores': 13.50,
+        'fee_status': 'Retained (Existing fee of ₹13.50 cr)',
+        'traded_for_player': 'Rishabh Pant',
+        'press_release_headline': 'Rishabh Pant and Kuldeep Yadav complete high-profile trade between DC and LSG',
+        'press_release_url': 'https://www.iplt20.com/news/article/rishabh-pant-and-kuldeep-yadav-complete-high-profile-trade-between-dc-and-lsg',
+        'notes': 'Premier left-arm wrist spinner moves to LSG after 5 seasons at DC (72 wickets in 65 matches).'
+    },
+    {
+        'trade_event_id': 'IPL2027-TR-05',
+        'trade_date': '11 Nov 2026',
+        'player_name': 'Mohd Shami',
+        'from_team': 'Lucknow Super Giants',
+        'to_team': 'Rajasthan Royals',
+        'trade_type': 'Three-Player Multi Trade',
+        'role': 'Right-arm Fast Bowler',
+        'trade_fee_crores': 8.00,
+        'trade_fee_inr': '₹8,00,00,000',
+        'previous_fee_crores': 10.00,
+        'fee_status': 'Reduced (-₹2.00 cr from ₹10.00 cr)',
+        'traded_for_player': 'Sam Curran (with M. Siddharth also joining RR)',
+        'press_release_headline': 'Mohd Shami and M. Siddharth traded to Rajasthan Royals, Sam Curran traded to Lucknow Super Giants',
+        'press_release_url': 'https://www.iplt20.com/news/article/mohd-shami-and-m-siddharth-traded-to-rajasthan-royals-sam-curran-traded-to-lucknow-super-giants',
+        'notes': 'Experienced right-arm pacer moves to RR at a revised fee of ₹8 crore after ₹10 cr LSG buy (145 wickets in 132 matches).'
+    },
+    {
+        'trade_event_id': 'IPL2027-TR-05',
+        'trade_date': '11 Nov 2026',
+        'player_name': 'M. Siddharth',
+        'from_team': 'Lucknow Super Giants',
+        'to_team': 'Rajasthan Royals',
+        'trade_type': 'Three-Player Multi Trade',
+        'role': 'Slow Left-arm Orthodox Bowler',
+        'trade_fee_crores': 0.75,
+        'trade_fee_inr': '₹75,00,000',
+        'previous_fee_crores': 0.75,
+        'fee_status': 'Retained (Existing fee of ₹75 lakh)',
+        'traded_for_player': 'Sam Curran (with Mohd Shami also joining RR)',
+        'press_release_headline': 'Mohd Shami and M. Siddharth traded to Rajasthan Royals, Sam Curran traded to Lucknow Super Giants',
+        'press_release_url': 'https://www.iplt20.com/news/article/mohd-shami-and-m-siddharth-traded-to-rajasthan-royals-sam-curran-traded-to-lucknow-super-giants',
+        'notes': 'Accurate left-arm spinner moves to RR from LSG for his existing fee of ₹75 lakh.'
+    },
+    {
+        'trade_event_id': 'IPL2027-TR-05',
+        'trade_date': '11 Nov 2026',
+        'player_name': 'Sam Curran',
+        'from_team': 'Rajasthan Royals',
+        'to_team': 'Lucknow Super Giants',
+        'trade_type': 'Three-Player Multi Trade',
+        'role': 'All-rounder',
+        'trade_fee_crores': 2.40,
+        'trade_fee_inr': '₹2,40,00,000',
+        'previous_fee_crores': 2.40,
+        'fee_status': 'Retained (Existing fee of ₹2.40 cr)',
+        'traded_for_player': 'Mohd Shami, M. Siddharth',
+        'press_release_headline': 'Mohd Shami and M. Siddharth traded to Rajasthan Royals, Sam Curran traded to Lucknow Super Giants',
+        'press_release_url': 'https://www.iplt20.com/news/article/mohd-shami-and-m-siddharth-traded-to-rajasthan-royals-sam-curran-traded-to-lucknow-super-giants',
+        'notes': 'England all-rounder joins LSG at his existing fee of ₹2.4 crore (997 runs, 59 wickets in IPL career).'
+    },
+    {
+        'trade_event_id': 'IPL2027-TR-06',
+        'trade_date': '11 Nov 2026',
+        'player_name': 'Harshal Patel',
+        'from_team': 'Sunrisers Hyderabad',
+        'to_team': 'Gujarat Titans',
+        'trade_type': 'One-way Franchise Trade',
+        'role': 'Right-arm Medium-fast Bowler',
+        'trade_fee_crores': 4.00,
+        'trade_fee_inr': '₹4,00,00,000',
+        'previous_fee_crores': 8.00,
+        'fee_status': 'Reduced (-₹4.00 cr from ₹8.00 cr)',
+        'traded_for_player': 'N/A (Franchise Cash Trade)',
+        'press_release_headline': 'Harshal Patel traded to Gujarat Titans from Sunrisers Hyderabad',
+        'press_release_url': 'https://www.iplt20.com/news/article/harshal-patel-traded-to-gujarat-titans-from-sunrisers-hyderabad',
+        'notes': 'Two-time Purple Cap winner (151 wickets in 124 matches) moves to GT at a revised fee of ₹4 crore after ₹8 cr SRH buy.'
+    }
+]
+
+df = pd.DataFrame(trades_data)
+
+# Save in root workspace and cricinfo-data
+for path in ['IPL-2027-trades.csv', 'cricinfo-data/IPL-2027-trades.csv']:
+    try:
+        df.to_csv(path, index=False, encoding='utf-8')
+        print(f"Successfully generated: {path}")
+    except PermissionError:
+        alt_path = path.replace('.csv', '_clean.csv')
+        df.to_csv(alt_path, index=False, encoding='utf-8')
+        print(f"File locked by another app, saved to: {alt_path}")
+
+print("Successfully generated IPL-2027-trades.csv")
+print(f"Total traded players recorded: {len(df)}")
+print(df[['player_name', 'from_team', 'to_team', 'trade_fee_inr', 'traded_for_player']])
+

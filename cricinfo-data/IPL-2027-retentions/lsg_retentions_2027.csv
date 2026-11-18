@@ -1,0 +1,19 @@
+team_name,team_code,player_name,full_name,is_overseas,is_traded,retention_salary_crores,retention_salary_lakhs,retention_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Lucknow Super Giants,LSG,Nicholas Pooran,Nicholas Pooran,True,False,21.0,2100.0,₹21.00 Cr,Wicketkeeper batter,West Indies,Left hand Bat,Right arm Offbreak,604302
+Lucknow Super Giants,LSG,Kuldeep Yadav,Kuldeep Yadav,False,True,13.25,1325.0,₹13.25 Cr,Bowler,India,Left hand Bat,Left arm Wrist spin,559235
+Lucknow Super Giants,LSG,Mayank Yadav,Mayank Prabhu Yadav,False,False,11.0,1100.0,₹11.00 Cr,Bowler,India,Right hand Bat,Right arm Fast,1292563
+Lucknow Super Giants,LSG,Josh Inglis,Joshua Patrick Inglis,True,False,8.6,860.0,₹8.60 Cr,Wicketkeeper batter,Australia,Right hand Bat,,662235
+Lucknow Super Giants,LSG,Abdul Samad,Abdul Samad Farooq,False,False,4.2,420.0,₹4.20 Cr,Batter,India,Right hand Bat,Legbreak,1175485
+Lucknow Super Giants,LSG,Ayush Badoni,Ayush Badoni,False,False,4.0,400.0,₹4.00 Cr,Batting allrounder,India,Right hand Bat,Right arm Offbreak,1151270
+Lucknow Super Giants,LSG,Mohsin Khan,Mohsin Khan,False,False,4.0,400.0,₹4.00 Cr,Bowler,India,Left hand Bat,Left arm Medium fast,1132005
+Lucknow Super Giants,LSG,Mitchell Marsh,Mitchell Ross Marsh,True,False,3.4,340.0,₹3.40 Cr,Top-order batter,Australia,Right hand Bat,Right arm Medium,272450
+Lucknow Super Giants,LSG,Mukul Choudhary,Mukul Dalip Choudhary,False,False,2.6,260.0,₹2.60 Cr,Wicketkeeper batter,India,Right hand Bat,,1354217
+Lucknow Super Giants,LSG,Sam Curran,Samuel Matthew Curran,True,True,2.4,240.0,₹2.40 Cr,Allrounder,England,Left hand Bat,Left arm Medium fast,662973
+Lucknow Super Giants,LSG,Shahbaz Ahmed,Shahbaz Ahmed,False,False,2.4,240.0,₹2.40 Cr,Allrounder,India,Left hand Bat,Slow Left arm Orthodox,1159711
+Lucknow Super Giants,LSG,Akshat Raghuwanshi,Akshat Raghuwanshi,False,False,2.2,220.0,₹2.20 Cr,Middle-order batter,India,Right hand Bat,Right arm Offbreak,1300795
+Lucknow Super Giants,LSG,Aiden Markram,Aiden Kyle Markram,True,False,2.0,200.0,₹2.00 Cr,Middle-order batter,South Africa,Right hand Bat,Right arm Offbreak,600498
+Lucknow Super Giants,LSG,Akash Singh,Akash Maharaj Singh,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Left arm Medium fast,1175458
+Lucknow Super Giants,LSG,Arjun Tendulkar,Arjun Sachin Tendulkar,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Left hand Bat,Left arm Medium fast,1148776
+Lucknow Super Giants,LSG,Arshin Kulkarni,Arshin Atul Kulkarni,False,False,0.3,30.0,₹30 Lakh,Allrounder,India,Right hand Bat,Right arm Medium,1403153
+Lucknow Super Giants,LSG,Digvesh Rathi,Digvesh Singh Rathi,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Legbreak,1460529
+Lucknow Super Giants,LSG,Prince Yadav,Prince Yadav,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Right arm Fast,1350768

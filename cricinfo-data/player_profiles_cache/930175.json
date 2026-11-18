@@ -1,0 +1,16 @@
+{
+  "full_name": "Deepak Khatri",
+  "short_name": "Deepak Khatri",
+  "display_name": "Deepak Khatri",
+  "first_name": "Deepak",
+  "last_name": "Khatri",
+  "date_of_birth": "5/12/1994",
+  "age": 31,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Middle-order batter",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm medium",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

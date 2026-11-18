@@ -1,0 +1,19 @@
+team_name,team_code,player_name,full_name,is_overseas,is_traded,retention_salary_crores,retention_salary_lakhs,retention_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Sunrisers Hyderabad,SRH,Heinrich Klaasen,Heinrich Klaasen,True,False,23.0,2300.0,₹23.00 Cr,Wicketkeeper batter,South Africa,Right hand Bat,Right arm Offbreak,436757
+Sunrisers Hyderabad,SRH,Pat Cummins,Patrick James Cummins,True,False,18.0,1800.0,₹18.00 Cr,Bowler,Australia,Right hand Bat,Right arm Fast,489889
+Sunrisers Hyderabad,SRH,Abhishek Sharma,Abhishek Sharma,False,False,14.0,1400.0,₹14.00 Cr,Batting allrounder,India,Left hand Bat,Slow Left arm Orthodox,1070183
+Sunrisers Hyderabad,SRH,Ishan Kishan,Ishan Pranav Kumar Pandey Kishan,False,False,11.25,1125.0,₹11.25 Cr,Wicketkeeper batter,India,Left hand Bat,"Right arm Offbreak, Legbreak",720471
+Sunrisers Hyderabad,SRH,Nitish Kumar Reddy,Kaki Nitish Kumar Reddy,False,False,6.0,600.0,₹6.00 Cr,Batting allrounder,India,Right hand Bat,Right arm Medium fast,1175496
+Sunrisers Hyderabad,SRH,T. Natarajan,Thangarasu Natarajan,False,True,5.0,500.0,₹5.00 Cr,Bowler,India,Left hand Bat,Left arm Medium,802575
+Sunrisers Hyderabad,SRH,Khaleel Ahmed,Khaleel Khursheed Ahmed,False,True,4.8,480.0,₹4.80 Cr,Bowler,India,Right hand Bat,Left arm Fast medium,942645
+Sunrisers Hyderabad,SRH,Nathan Ellis,Nathan Ellis,True,True,2.0,200.0,₹2.00 Cr,Bowler,Australia,Right hand Bat,Right arm Fast medium,826915
+Sunrisers Hyderabad,SRH,Salil Arora,Salil Arora,False,False,1.5,150.0,₹1.50 Cr,Wicketkeeper batter,India,Right hand Bat,,1199281
+Sunrisers Hyderabad,SRH,Eshan Malinga,Kiribathgala Kankanamalage Eshan Malinga Dharmasena,True,False,1.2,120.0,₹1.20 Cr,Bowler,Sri Lanka,Left hand Bat,Right arm Fast medium,1306214
+Sunrisers Hyderabad,SRH,Brydon Carse,Brydon Carse,True,False,1.0,100.0,₹1.00 Cr,Bowling Allrounder,Overseas,Right hand Bat,Right arm Fast medium,596417
+Sunrisers Hyderabad,SRH,Aniket Verma,Aniket Umashankar Verma,False,False,0.3,30.0,₹30 Lakh,Batter,India,Right hand Bat,Right arm Medium fast,1409976
+Sunrisers Hyderabad,SRH,Harsh Dubey,Harsh Surendra Dubey,False,False,0.3,30.0,₹30 Lakh,Bowling allrounder,India,Left hand Bat,Slow Left arm Orthodox,1216159
+Sunrisers Hyderabad,SRH,Krains Fuletra,Krains Bhaveshbhai Fuletra,False,False,0.3,30.0,₹30 Lakh,Bowling allrounder,India,Right hand Bat,Left arm Wrist spin,1467631
+Sunrisers Hyderabad,SRH,Praful Hinge,Praful Prakash Hinge,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Right arm Medium fast,1216167
+Sunrisers Hyderabad,SRH,Sakib Hussain,Sakib Hussain,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Right arm Medium,1340422
+Sunrisers Hyderabad,SRH,Shivang Kumar,Shivang Kumar,False,False,0.3,30.0,₹30 Lakh,Bowling allrounder,India,Right hand Bat,Left arm Wrist spin,1512089
+Sunrisers Hyderabad,SRH,Smaran Ravichandran,Smaran Ravichandran,False,False,0.3,30.0,₹30 Lakh,,India,,,

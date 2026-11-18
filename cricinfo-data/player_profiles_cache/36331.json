@@ -1,0 +1,16 @@
+{
+  "full_name": "Ian Gareth Butler",
+  "short_name": "Ian Butler",
+  "display_name": "Ian Gareth Butler",
+  "first_name": "Ian",
+  "last_name": "Butler",
+  "date_of_birth": "24/11/1981",
+  "age": 44,
+  "gender": "M",
+  "country": "New Zealand",
+  "playing_role": "Bowler",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm fast",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

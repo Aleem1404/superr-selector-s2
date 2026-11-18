@@ -1,0 +1,16 @@
+{
+  "full_name": "Kuldeep Yadav",
+  "short_name": "Kuldeep Yadav",
+  "display_name": "Kuldeep Yadav",
+  "first_name": "Kuldeep",
+  "last_name": "Yadav",
+  "date_of_birth": "14/12/1994",
+  "age": 31,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Bowler",
+  "batting_style": "Left-hand bat",
+  "bowling_style": "Left-arm wrist-spin",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/559235.png",
+  "is_active": true
+}

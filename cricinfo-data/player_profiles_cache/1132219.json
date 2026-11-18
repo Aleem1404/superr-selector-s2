@@ -1,0 +1,16 @@
+{
+  "full_name": "Sanvir Singh",
+  "short_name": "Sanvir Singh",
+  "display_name": "Sanvir Singh",
+  "first_name": "Sanvir",
+  "last_name": "Singh",
+  "date_of_birth": "12/10/1996",
+  "age": 30,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Allrounder",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm medium",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/1132219.png",
+  "is_active": true
+}

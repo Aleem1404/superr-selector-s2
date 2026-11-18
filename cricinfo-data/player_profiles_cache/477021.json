@@ -1,0 +1,16 @@
+{
+  "full_name": "Vijay Shankar",
+  "short_name": "Vijay Shankar",
+  "display_name": "Vijay Shankar",
+  "first_name": "Vijay",
+  "last_name": "Shankar",
+  "date_of_birth": "26/1/1991",
+  "age": 35,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Allrounder",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm medium",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/477021.png",
+  "is_active": true
+}

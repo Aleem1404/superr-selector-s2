@@ -1,0 +1,18 @@
+team_name,team_code,player_name,full_name,is_overseas,is_traded,retention_salary_crores,retention_salary_lakhs,retention_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Kolkata Knight Riders,KKR,Cameron Green,Cameron Donald Green,True,False,25.2,2520.0,₹25.20 Cr,Batting allrounder,Australia,Right hand Bat,Right arm Fast medium,1076713
+Kolkata Knight Riders,KKR,Rinku Singh,Rinku Khanchand Singh,False,False,13.0,1300.0,₹13.00 Cr,Middle-order batter,India,Left hand Bat,Right arm Offbreak,723105
+Kolkata Knight Riders,KKR,Sunil Narine,Sunil Philip Narine,True,False,12.0,1200.0,₹12.00 Cr,Bowling allrounder,West Indies,Left hand Bat,Right arm Offbreak,230558
+Kolkata Knight Riders,KKR,Varun Chakaravarthy,Varun Chakaravarthy,False,False,12.0,1200.0,₹12.00 Cr,,India,,,
+Kolkata Knight Riders,KKR,Harshit Rana,Harshit Pradeep Rana,False,False,4.0,400.0,₹4.00 Cr,Bowler,India,Right hand Bat,Right arm Fast,1312645
+Kolkata Knight Riders,KKR,Ramandeep Singh,Ramandeep Singh,False,False,4.0,400.0,₹4.00 Cr,Middle-order batter,India,Right hand Bat,Right arm Medium,1079470
+Kolkata Knight Riders,KKR,Angkrish Raghuvanshi,Angkrish Raghuvanshi,False,False,3.0,300.0,₹3.00 Cr,Top-order batter,India,Right hand Bat,Slow Left arm Orthodox,1292495
+Kolkata Knight Riders,KKR,Finn Allen,Finnley Hugh Allen,True,False,2.0,200.0,₹2.00 Cr,Top-order batter,New Zealand,Right hand Bat,,959759
+Kolkata Knight Riders,KKR,Vaibhav Arora,Vaibhav Gopal Arora,False,False,1.8,180.0,₹1.80 Cr,Bowler,India,Right hand Bat,Right arm Fast medium,1209292
+Kolkata Knight Riders,KKR,Rovman Powell,Rovman Powell,True,False,1.5,150.0,₹1.50 Cr,Middle-order batter,West Indies,Right hand Bat,Right arm Medium fast,820351
+Kolkata Knight Riders,KKR,Tim Seifert,Tim Louis Seifert,True,False,1.5,150.0,₹1.50 Cr,Wicketkeeper batter,New Zealand,Right hand Bat,,625964
+Kolkata Knight Riders,KKR,Manish Pandey,Manish Krishnanand Pandey,False,False,0.75,75.0,₹75 Lakh,Top-order batter,India,Right hand Bat,Right arm Medium,290630
+Kolkata Knight Riders,KKR,Anukul Roy,Anukul Sudhakar Roy,False,False,0.4,40.0,₹40 Lakh,Allrounder,India,Left hand Bat,Slow Left arm Orthodox,1079839
+Kolkata Knight Riders,KKR,Kartik Tyagi,Kartik Tyagi,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Right arm Fast,1122918
+Kolkata Knight Riders,KKR,Prashant Solanki,Prashant Hitesh Solanki,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Legbreak,1252337
+Kolkata Knight Riders,KKR,Sarthak Ranjan,Sarthak Ranjan,False,False,0.3,30.0,₹30 Lakh,Opening Batter,India,Right hand Bat,Legbreak,956405
+Kolkata Knight Riders,KKR,Saurabh Dubey,Saurabh Rajendraprasad Dubey,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Left arm Medium fast,1206492

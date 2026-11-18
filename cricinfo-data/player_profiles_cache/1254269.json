@@ -1,0 +1,16 @@
+{
+  "full_name": "Aman Khan",
+  "short_name": "Aman Khan",
+  "display_name": "Aman Khan",
+  "first_name": "Aman",
+  "last_name": "Khan",
+  "date_of_birth": "23/11/1996",
+  "age": 29,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Allrounder",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm medium",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/1254269.png",
+  "is_active": true
+}

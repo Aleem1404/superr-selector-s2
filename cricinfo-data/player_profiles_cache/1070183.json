@@ -1,0 +1,16 @@
+{
+  "full_name": "Abhishek Sharma",
+  "short_name": "Abhishek Sharma",
+  "display_name": "Abhishek Sharma",
+  "first_name": "Abhishek",
+  "last_name": "Sharma",
+  "date_of_birth": "4/9/2000",
+  "age": 26,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Batting allrounder",
+  "batting_style": "Left-hand bat",
+  "bowling_style": "Slow left-arm orthodox",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/1070183.png",
+  "is_active": true
+}

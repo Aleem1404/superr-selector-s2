@@ -1,0 +1,16 @@
+{
+  "full_name": "Afroz Khan",
+  "short_name": "Afroz Khan",
+  "display_name": "Afroz Khan",
+  "first_name": "Afroz",
+  "last_name": "Khan",
+  "date_of_birth": "8/7/1984",
+  "age": 42,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Unknown",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm medium",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

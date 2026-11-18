@@ -1,0 +1,16 @@
+{
+  "full_name": "Rajat Arjun Dey",
+  "short_name": "Rajat Dey",
+  "display_name": "Rajat Arjun Dey",
+  "first_name": "Rajat",
+  "last_name": "Dey",
+  "date_of_birth": "31/12/1996",
+  "age": 29,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Top-order batter",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm offbreak",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

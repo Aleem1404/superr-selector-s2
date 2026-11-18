@@ -1,0 +1,16 @@
+{
+  "full_name": "Ravichandran Ashwin",
+  "short_name": "Ravichandran Ashwin",
+  "display_name": "Ravichandran Ashwin",
+  "first_name": "Ravichandran",
+  "last_name": "Ashwin",
+  "date_of_birth": "17/9/1986",
+  "age": 40,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Bowling allrounder",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm offbreak",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/26421.png",
+  "is_active": true
+}

@@ -1,0 +1,16 @@
+{
+  "full_name": "Vivrant Sharma",
+  "short_name": "Vivrant Sharma",
+  "display_name": "Vivrant Sharma",
+  "first_name": "Vivrant",
+  "last_name": "Sharma",
+  "date_of_birth": "30/10/1999",
+  "age": 27,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Allrounder",
+  "batting_style": "Left-hand bat",
+  "bowling_style": "Legbreak googly",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

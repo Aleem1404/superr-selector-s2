@@ -1,0 +1,16 @@
+{
+  "full_name": "Sohail Tanvir",
+  "short_name": "Sohail Tanvir",
+  "display_name": "Sohail Tanvir",
+  "first_name": "Sohail",
+  "last_name": "Tanvir",
+  "date_of_birth": "12/12/1984",
+  "age": 41,
+  "gender": "M",
+  "country": "Pakistan",
+  "playing_role": "Bowler",
+  "batting_style": "Left-hand bat",
+  "bowling_style": "Left-arm medium-fast",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/43265.png",
+  "is_active": true
+}

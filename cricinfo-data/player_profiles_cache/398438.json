@@ -1,0 +1,16 @@
+{
+  "full_name": "Mayank Anurag Agarwal",
+  "short_name": "Mayank Agarwal",
+  "display_name": "Mayank Anurag Agarwal",
+  "first_name": "Mayank",
+  "last_name": "Agarwal",
+  "date_of_birth": "16/2/1991",
+  "age": 35,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Batter",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm offbreak",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/398438.png",
+  "is_active": true
+}

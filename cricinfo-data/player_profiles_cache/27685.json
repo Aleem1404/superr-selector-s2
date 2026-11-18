@@ -1,0 +1,16 @@
+{
+  "full_name": "Bharat Chipli",
+  "short_name": "Bharat Chipli",
+  "display_name": "Bharat Chipli",
+  "first_name": "Bharat",
+  "last_name": "Chipli",
+  "date_of_birth": "27/1/1983",
+  "age": 43,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Batter",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm medium",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

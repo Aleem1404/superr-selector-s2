@@ -1,0 +1,16 @@
+{
+  "full_name": "Harpreet Brar",
+  "short_name": "Harpreet Brar",
+  "display_name": "Harpreet Brar",
+  "first_name": "Harpreet",
+  "last_name": "Brar",
+  "date_of_birth": "16/9/1995",
+  "age": 31,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Bowler",
+  "batting_style": "Left-hand bat",
+  "bowling_style": "Slow left-arm orthodox",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/1168641.png",
+  "is_active": true
+}

@@ -1,0 +1,16 @@
+{
+  "full_name": "Shakib Al Hasan",
+  "short_name": "Shakib Al Hasan",
+  "display_name": "Shakib Al Hasan",
+  "first_name": "Shakib",
+  "last_name": "Hasan",
+  "date_of_birth": "24/3/1987",
+  "age": 39,
+  "gender": "M",
+  "country": "Bangladesh",
+  "playing_role": "Allrounder",
+  "batting_style": "Left-hand bat",
+  "bowling_style": "Slow left-arm orthodox",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/56143.png",
+  "is_active": true
+}

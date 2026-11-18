@@ -1,0 +1,16 @@
+{
+  "full_name": "Marco Jansen",
+  "short_name": "Marco Jansen",
+  "display_name": "Marco Jansen",
+  "first_name": "Marco",
+  "last_name": "Jansen",
+  "date_of_birth": "1/5/2000",
+  "age": 26,
+  "gender": "M",
+  "country": "South Africa",
+  "playing_role": "Bowling allrounder",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Left-arm fast",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/696401.png",
+  "is_active": true
+}

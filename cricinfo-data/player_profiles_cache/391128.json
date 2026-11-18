@@ -1,0 +1,16 @@
+{
+  "full_name": "Harmeet Singh Bansal",
+  "short_name": "Harmeet Singh",
+  "display_name": "Harmeet Singh Bansal",
+  "first_name": "Harmeet",
+  "last_name": "Singh",
+  "date_of_birth": "9/10/1987",
+  "age": 39,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Bowler",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm medium",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

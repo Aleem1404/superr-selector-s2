@@ -1,0 +1,16 @@
+{
+  "full_name": "Sayed Iqbal Abdulla",
+  "short_name": "Iqbal Abdulla",
+  "display_name": "Sayed Iqbal Abdulla",
+  "first_name": "Iqbal",
+  "last_name": "Abdulla",
+  "date_of_birth": "2/12/1989",
+  "age": 36,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Allrounder",
+  "batting_style": "Left-hand bat",
+  "bowling_style": "Slow left-arm orthodox",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

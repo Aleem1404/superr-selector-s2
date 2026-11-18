@@ -1,0 +1,16 @@
+{
+  "full_name": "Jaydev Dipakbhai Unadkat",
+  "short_name": "Jaydev Unadkat",
+  "display_name": "Jaydev Dipakbhai Unadkat",
+  "first_name": "Jaydev",
+  "last_name": "Unadkat",
+  "date_of_birth": "18/10/1991",
+  "age": 35,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Bowler",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Left-arm medium",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/390484.png",
+  "is_active": true
+}

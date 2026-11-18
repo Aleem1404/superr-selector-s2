@@ -1,0 +1,7 @@
+team_name,team_code,player_name,full_name,is_overseas,previous_salary_crores,previous_salary_lakhs,previous_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Royal Challengers Bengaluru,RCB,Mangesh Yadav,Mangesh Yadav,False,5.2,520.0,₹5.20 Cr,Allrounder,India,Left hand Bat,Left arm Fast,1515303
+Royal Challengers Bengaluru,RCB,Jacob Bethell,Jacob Graham Bethell,True,2.6,260.0,₹2.60 Cr,Batting allrounder,England,Left hand Bat,Slow Left arm Orthodox,1194959
+Royal Challengers Bengaluru,RCB,Richard Gleeson,Richard James Gleeson,True,1.6,160.0,₹1.60 Cr,Bowler,England,Right hand Bat,Right arm Fast medium,473191
+Royal Challengers Bengaluru,RCB,Swapnil Singh,Swapnil Singh,False,0.5,50.0,₹50 Lakh,Bowler,India,Right hand Bat,Slow Left arm Orthodox,232292
+Royal Challengers Bengaluru,RCB,Satvik Deswal,Satvik Deswal,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Slow Left arm Orthodox,1515302
+Royal Challengers Bengaluru,RCB,Vihaan Malhotra,Vihaan Manoj Malhotra,False,0.3,30.0,₹30 Lakh,Batting allrounder,India,Left hand Bat,Right arm Offbreak,1354132

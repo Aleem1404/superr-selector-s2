@@ -1,0 +1,21 @@
+team_name,team_code,player_name,full_name,is_overseas,is_traded,retention_salary_crores,retention_salary_lakhs,retention_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Royal Challengers Bengaluru,RCB,Virat Kohli,Virat Kohli,False,False,21.0,2100.0,₹21.00 Cr,Top-order batter,India,Right hand Bat,Right arm Medium,253802
+Royal Challengers Bengaluru,RCB,Josh Hazlewood,Josh Reginald Hazlewood,True,False,12.5,1250.0,₹12.50 Cr,Bowler,Australia,Left hand Bat,Right arm Fast medium,288284
+Royal Challengers Bengaluru,RCB,Phil Salt,Philip Dean Salt,True,False,11.5,1150.0,₹11.50 Cr,Wicketkeeper batter,England,Right hand Bat,Right arm Offbreak,669365
+Royal Challengers Bengaluru,RCB,Jitesh Sharma,Jitesh Mohan Sharma,False,False,11.0,1100.0,₹11.00 Cr,Wicketkeeper batter,India,Right hand Bat,,721867
+Royal Challengers Bengaluru,RCB,Rajat Patidar,Rajat Manohar Patidar,False,False,11.0,1100.0,₹11.00 Cr,Top-order batter,India,Right hand Bat,Right arm Offbreak,823703
+Royal Challengers Bengaluru,RCB,Bhuvneshwar Kumar,Bhuvneshwar Kumar Singh,False,False,10.75,1075.0,₹10.75 Cr,Bowler,India,Right hand Bat,Right arm Medium,326016
+Royal Challengers Bengaluru,RCB,Venkatesh Iyer,Venkatesh Rajasekaran Iyer,False,False,7.0,700.0,₹7.00 Cr,Allrounder,India,Left hand Bat,Right arm Medium,851403
+Royal Challengers Bengaluru,RCB,Rasikh Dar,Rasikh Salam Dar,False,False,6.0,600.0,₹6.00 Cr,Bowler,India,Right hand Bat,Right arm Fast medium,1161489
+Royal Challengers Bengaluru,RCB,Krunal Pandya,Krunal Himanshu Pandya,False,False,5.75,575.0,₹5.75 Cr,Allrounder,India,Left hand Bat,Slow Left arm Orthodox,471342
+Royal Challengers Bengaluru,RCB,Yash Dayal,Yash Dayal,False,False,5.0,500.0,₹5.00 Cr,Bowler,India,Right hand Bat,Left arm Medium fast,1159720
+Royal Challengers Bengaluru,RCB,Tim David,Timothy Hays David,True,False,3.0,300.0,₹3.00 Cr,Middle-order batter,Australia,Right hand Bat,Right arm Offbreak,892749
+Royal Challengers Bengaluru,RCB,Suyash Sharma,Suyash Sharma,False,False,2.6,260.0,₹2.60 Cr,Bowler,India,Right hand Bat,Legbreak Googly,1350792
+Royal Challengers Bengaluru,RCB,Devdutt Padikkal,Devdutt Padikkal,False,False,2.0,200.0,₹2.00 Cr,Top-order batter,India,Left hand Bat,Right arm Offbreak,1119026
+Royal Challengers Bengaluru,RCB,Jacob Duffy,Jacob Andrew Duffy,True,False,2.0,200.0,₹2.00 Cr,Bowler,New Zealand,Right hand Bat,Right arm Fast medium,547766
+Royal Challengers Bengaluru,RCB,Nuwan Thushara,Ilandari Dewage Nuwan Thushara,True,False,1.6,160.0,₹1.60 Cr,Bowler,Sri Lanka,Right hand Bat,Right arm Medium fast,955235
+Royal Challengers Bengaluru,RCB,Romario Shepherd,Romario Shepherd,True,False,1.5,150.0,₹1.50 Cr,Bowling allrounder,West Indies,Right hand Bat,Right arm Fast medium,677077
+Royal Challengers Bengaluru,RCB,Jordan Cox,Jordan Matthew Cox,True,False,0.75,75.0,₹75 Lakh,Wicketkeeper batter,England,Right hand Bat,,1112537
+Royal Challengers Bengaluru,RCB,Abhinandan Singh,Abhinandan Singh,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Right arm Medium fast,1449085
+Royal Challengers Bengaluru,RCB,Kanishk Chouhan,Kanishk Chouhan,False,False,0.3,30.0,₹30 Lakh,Bowling allrounder,India,Right hand Bat,Right arm Offbreak,1490396
+Royal Challengers Bengaluru,RCB,Vicky Ostwal,Vicky Kanhaiya Ostwal,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Slow Left arm Orthodox,1292520

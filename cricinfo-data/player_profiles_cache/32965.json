@@ -1,0 +1,16 @@
+{
+  "full_name": "Munaf Musa Patel",
+  "short_name": "Munaf Patel",
+  "display_name": "Munaf Musa Patel",
+  "first_name": "Munaf",
+  "last_name": "Patel",
+  "date_of_birth": "12/7/1983",
+  "age": 43,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Bowler",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm medium-fast",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/32965.png",
+  "is_active": true
+}

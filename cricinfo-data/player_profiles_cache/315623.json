@@ -1,0 +1,16 @@
+{
+  "full_name": "Ben Laughlin",
+  "short_name": "Ben Laughlin",
+  "display_name": "Ben Laughlin",
+  "first_name": "Ben",
+  "last_name": "Laughlin",
+  "date_of_birth": "3/10/1982",
+  "age": 44,
+  "gender": "M",
+  "country": "Australia",
+  "playing_role": "Bowler",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm fast-medium",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

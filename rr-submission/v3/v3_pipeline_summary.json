@@ -1,0 +1,169 @@
+{
+  "version": "v3",
+  "criteria_applied": [
+    "Dynamic Leverage Index (LI >= 1.50)",
+    "Venue Par Rates (17 Venues)",
+    "Playoff Multipliers (1.20x Playoff, 1.30x Final)",
+    "Bayesian Empirical Prior Shrinkage (k=50)",
+    "Match-Level Consistency (Min 8 HP Balls)",
+    "Active Roster Verification (Cricinfo Status + Official Announcements)"
+  ],
+  "excluded_retired_in_contention": [
+    {
+      "player_name": "Mahendra Singh Dhoni",
+      "reason": "Retired & transitioned to CSK Mentor"
+    },
+    {
+      "player_name": "Dinesh Karthik",
+      "reason": "Retired 1 June 2024 (RCB Batting Coach)"
+    },
+    {
+      "player_name": "Matthew Wade",
+      "reason": "Retired Oct 2024 (Australia Coaching Staff)"
+    }
+  ],
+  "top10_batters": [
+    {
+      "rank": 1,
+      "player_name": "Naman Dhir",
+      "cbps_score_v3": 1.48,
+      "hp_sr": 194.89,
+      "delta_sr_venue": 46.63
+    },
+    {
+      "rank": 2,
+      "player_name": "Ashutosh Sharma",
+      "cbps_score_v3": 1.38,
+      "hp_sr": 171.01,
+      "delta_sr_venue": 20.26
+    },
+    {
+      "rank": 3,
+      "player_name": "Jos Buttler",
+      "cbps_score_v3": 1.36,
+      "hp_sr": 184.95,
+      "delta_sr_venue": 34.51
+    },
+    {
+      "rank": 4,
+      "player_name": "Suryakumar Yadav",
+      "cbps_score_v3": 1.26,
+      "hp_sr": 188.83,
+      "delta_sr_venue": 43.12
+    },
+    {
+      "rank": 5,
+      "player_name": "Shreyas Iyer",
+      "cbps_score_v3": 1.0,
+      "hp_sr": 177.62,
+      "delta_sr_venue": 29.57
+    },
+    {
+      "rank": 6,
+      "player_name": "Glenn Phillips",
+      "cbps_score_v3": 0.9,
+      "hp_sr": 179.22,
+      "delta_sr_venue": 30.87
+    },
+    {
+      "rank": 7,
+      "player_name": "Dhruv Jurel",
+      "cbps_score_v3": 0.89,
+      "hp_sr": 171.08,
+      "delta_sr_venue": 21.05
+    },
+    {
+      "rank": 8,
+      "player_name": "Marcus Stoinis",
+      "cbps_score_v3": 0.82,
+      "hp_sr": 170.71,
+      "delta_sr_venue": 21.31
+    },
+    {
+      "rank": 9,
+      "player_name": "Tristan Stubbs",
+      "cbps_score_v3": 0.81,
+      "hp_sr": 170.52,
+      "delta_sr_venue": 20.24
+    },
+    {
+      "rank": 10,
+      "player_name": "Tim David",
+      "cbps_score_v3": 0.76,
+      "hp_sr": 178.49,
+      "delta_sr_venue": 30.01
+    }
+  ],
+  "top10_bowlers": [
+    {
+      "rank": 1,
+      "player_name": "Sunil Narine",
+      "cbps_score_v3": 1.61,
+      "hp_econ": 6.2,
+      "delta_econ_venue": 2.9
+    },
+    {
+      "rank": 2,
+      "player_name": "Matheesha Pathirana",
+      "cbps_score_v3": 1.08,
+      "hp_econ": 8.53,
+      "delta_econ_venue": 1.4
+    },
+    {
+      "rank": 3,
+      "player_name": "Jasprit Bumrah",
+      "cbps_score_v3": 0.97,
+      "hp_econ": 7.41,
+      "delta_econ_venue": 1.66
+    },
+    {
+      "rank": 4,
+      "player_name": "Mitchell Santner",
+      "cbps_score_v3": 0.89,
+      "hp_econ": 7.46,
+      "delta_econ_venue": 1.86
+    },
+    {
+      "rank": 5,
+      "player_name": "Rashid Khan",
+      "cbps_score_v3": 0.81,
+      "hp_econ": 8.13,
+      "delta_econ_venue": 0.89
+    },
+    {
+      "rank": 6,
+      "player_name": "Varun Chakravarthy",
+      "cbps_score_v3": 0.79,
+      "hp_econ": 8.26,
+      "delta_econ_venue": 0.95
+    },
+    {
+      "rank": 7,
+      "player_name": "Taskin Ahmed",
+      "cbps_score_v3": 0.75,
+      "hp_econ": 8.62,
+      "delta_econ_venue": 0.71
+    },
+    {
+      "rank": 8,
+      "player_name": "Jamie Overton",
+      "cbps_score_v3": 0.69,
+      "hp_econ": 8.61,
+      "delta_econ_venue": 0.59
+    },
+    {
+      "rank": 9,
+      "player_name": "Mitchell Starc",
+      "cbps_score_v3": 0.68,
+      "hp_econ": 10.15,
+      "delta_econ_venue": -0.49
+    },
+    {
+      "rank": 10,
+      "player_name": "Rasikh Salam",
+      "cbps_score_v3": 0.66,
+      "hp_econ": 9.12,
+      "delta_econ_venue": 0.72
+    }
+  ]
+}

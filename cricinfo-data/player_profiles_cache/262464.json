@@ -1,0 +1,16 @@
+{
+  "full_name": "Robin Bist",
+  "short_name": "Robin Bist",
+  "display_name": "Robin Bist",
+  "first_name": "Robin",
+  "last_name": "Bist",
+  "date_of_birth": "2/11/1987",
+  "age": 39,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Middle-order batter",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm offbreak",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

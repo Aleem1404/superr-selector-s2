@@ -1,0 +1,16 @@
+{
+  "full_name": "Shardul Narendra Thakur",
+  "short_name": "Shardul Thakur",
+  "display_name": "Shardul Narendra Thakur",
+  "first_name": "Shardul",
+  "last_name": "Thakur",
+  "date_of_birth": "16/10/1991",
+  "age": 35,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Bowling allrounder",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm medium",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/475281.png",
+  "is_active": true
+}

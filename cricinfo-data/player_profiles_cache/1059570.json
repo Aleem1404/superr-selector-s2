@@ -1,0 +1,16 @@
+{
+  "full_name": "Ajay Jadav Mandal",
+  "short_name": "Ajay Mandal",
+  "display_name": "Ajay Jadav Mandal",
+  "first_name": "Ajay",
+  "last_name": "Mandal",
+  "date_of_birth": "25/2/1996",
+  "age": 30,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Allrounder",
+  "batting_style": "Left-hand bat",
+  "bowling_style": "Slow left-arm orthodox",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

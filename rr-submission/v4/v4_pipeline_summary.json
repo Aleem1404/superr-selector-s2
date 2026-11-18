@@ -1,0 +1,158 @@
+{
+  "version": "v4",
+  "framework": "Unified Contextual Pressure Engine (Opposition Tiering + Chase Asymmetry + Tactical Cohort + Venue Par)",
+  "top10_batters": [
+    {
+      "rank": 1,
+      "player_name": "Naman Dhir",
+      "cbps_score_v4": 1.6,
+      "hp_sr": 196.2,
+      "hp_opp_sr": 200.17,
+      "delta_sr_venue": 51.86
+    },
+    {
+      "rank": 2,
+      "player_name": "Ashutosh Sharma",
+      "cbps_score_v4": 1.27,
+      "hp_sr": 169.68,
+      "hp_opp_sr": 171.68,
+      "delta_sr_venue": 20.91
+    },
+    {
+      "rank": 3,
+      "player_name": "Suryakumar Yadav",
+      "cbps_score_v4": 1.25,
+      "hp_sr": 186.7,
+      "hp_opp_sr": 190.31,
+      "delta_sr_venue": 44.32
+    },
+    {
+      "rank": 4,
+      "player_name": "Jos Buttler",
+      "cbps_score_v4": 1.11,
+      "hp_sr": 180.57,
+      "hp_opp_sr": 182.57,
+      "delta_sr_venue": 32.14
+    },
+    {
+      "rank": 5,
+      "player_name": "Glenn Phillips",
+      "cbps_score_v4": 1.07,
+      "hp_sr": 179.93,
+      "hp_opp_sr": 184.71,
+      "delta_sr_venue": 36.44
+    },
+    {
+      "rank": 6,
+      "player_name": "Donovan Ferreira",
+      "cbps_score_v4": 1.07,
+      "hp_sr": 181.46,
+      "hp_opp_sr": 186.34,
+      "delta_sr_venue": 33.32
+    },
+    {
+      "rank": 7,
+      "player_name": "Shreyas Iyer",
+      "cbps_score_v4": 0.97,
+      "hp_sr": 174.73,
+      "hp_opp_sr": 177.3,
+      "delta_sr_venue": 29.37
+    },
+    {
+      "rank": 8,
+      "player_name": "Sai Sudharsan",
+      "cbps_score_v4": 0.84,
+      "hp_sr": 174.65,
+      "hp_opp_sr": 177.09,
+      "delta_sr_venue": 28.78
+    },
+    {
+      "rank": 9,
+      "player_name": "Shashank Singh",
+      "cbps_score_v4": 0.84,
+      "hp_sr": 171.96,
+      "hp_opp_sr": 174.1,
+      "delta_sr_venue": 26.19
+    },
+    {
+      "rank": 10,
+      "player_name": "Tim David",
+      "cbps_score_v4": 0.81,
+      "hp_sr": 179.7,
+      "hp_opp_sr": 181.47,
+      "delta_sr_venue": 33.03
+    }
+  ],
+  "top10_bowlers": [
+    {
+      "rank": 1,
+      "player_name": "Sunil Narine",
+      "cbps_score_v4": 1.38,
+      "hp_econ": 6.63,
+      "delta_econ_venue": 2.45
+    },
+    {
+      "rank": 2,
+      "player_name": "Matheesha Pathirana",
+      "cbps_score_v4": 1.13,
+      "hp_econ": 8.51,
+      "delta_econ_venue": 1.42
+    },
+    {
+      "rank": 3,
+      "player_name": "Mitchell Santner",
+      "cbps_score_v4": 1.12,
+      "hp_econ": 7.3,
+      "delta_econ_venue": 1.97
+    },
+    {
+      "rank": 4,
+      "player_name": "Akeal Hosein",
+      "cbps_score_v4": 0.99,
+      "hp_econ": 7.38,
+      "delta_econ_venue": 1.84
+    },
+    {
+      "rank": 5,
+      "player_name": "Rashid Khan",
+      "cbps_score_v4": 0.93,
+      "hp_econ": 7.96,
+      "delta_econ_venue": 1.04
+    },
+    {
+      "rank": 6,
+      "player_name": "Jasprit Bumrah",
+      "cbps_score_v4": 0.92,
+      "hp_econ": 7.42,
+      "delta_econ_venue": 1.68
+    },
+    {
+      "rank": 7,
+      "player_name": "Wanindu Hasaranga",
+      "cbps_score_v4": 0.81,
+      "hp_econ": 8.43,
+      "delta_econ_venue": 0.41
+    },
+    {
+      "rank": 8,
+      "player_name": "Taskin Ahmed",
+      "cbps_score_v4": 0.77,
+      "hp_econ": 8.61,
+      "delta_econ_venue": 0.72
+    },
+    {
+      "rank": 9,
+      "player_name": "Sikandar Raza",
+      "cbps_score_v4": 0.77,
+      "hp_econ": 7.22,
+      "delta_econ_venue": 1.93
+    },
+    {
+      "rank": 10,
+      "player_name": "Varun Chakravarthy",
+      "cbps_score_v4": 0.75,
+      "hp_econ": 8.35,
+      "delta_econ_venue": 0.86
+    }
+  ]
+}

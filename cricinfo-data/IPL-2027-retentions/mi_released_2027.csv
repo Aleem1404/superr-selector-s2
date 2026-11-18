@@ -1,0 +1,14 @@
+team_name,team_code,player_name,full_name,is_overseas,previous_salary_crores,previous_salary_lakhs,previous_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Mumbai Indians,MI,Trent Boult,Trent Alexander Boult,True,12.5,1250.0,₹12.50 Cr,Bowler,New Zealand,Right hand Bat,Left arm Fast medium,277912
+Mumbai Indians,MI,Deepak Chahar,Deepak Lokandersingh Chahar,False,9.25,925.0,₹9.25 Cr,Bowler,India,Right hand Bat,Right arm Medium,447261
+Mumbai Indians,MI,AM Ghazanfar,AM Ghazanfar,True,4.8,480.0,₹4.80 Cr,Bowler,Afghanistan,Right hand Bat,"Right arm Offbreak, Legbreak",1326798
+Mumbai Indians,MI,Keshav Maharaj,Keshav Athmanand Maharaj,True,0.75,75.0,₹75 Lakh,Bowler,South Africa,Right hand Bat,Slow Left arm Orthodox,267724
+Mumbai Indians,MI,Robin Minz,Robin Minz,False,0.65,65.0,₹65 Lakh,Wicketkeeper batter,India,Left hand Bat,Slow Left arm Orthodox,1350762
+Mumbai Indians,MI,Mahipal Lamror,Mahipal Lamror,False,0.5,50.0,₹50 Lakh,,India,,,
+Mumbai Indians,MI,Atharva Ankolekar,Atharva Vinod Ankolekar,False,0.3,30.0,₹30 Lakh,Allrounder,India,Left hand Bat,Slow Left arm Orthodox,1175467
+Mumbai Indians,MI,Danish Malewar,Danish Vishnu Malewar,False,0.3,30.0,₹30 Lakh,Top-order batter,India,Right hand Bat,Legbreak,1421992
+Mumbai Indians,MI,Krish Bhagat,Krish Bhagat,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Right arm Medium,1454586
+Mumbai Indians,MI,Mayank Markande,Mayank Markande,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Legbreak,1081442
+Mumbai Indians,MI,Mayank Rawat,Mayank Ram Rawat,False,0.3,30.0,₹30 Lakh,Allrounder,India,Right hand Bat,Right arm Offbreak,1079847
+Mumbai Indians,MI,Mohammad Izhar,Mohammad Izhar,False,0.3,30.0,₹30 Lakh,,India,,,
+Mumbai Indians,MI,Ruchit Ahir,Ruchit Ahir,False,0.3,30.0,₹30 Lakh,Batter,India,Right hand Bat,Right arm Medium fast,1395884

@@ -1,0 +1,16 @@
+{
+  "full_name": "Shadab Bashir Jakati",
+  "short_name": "Shadab Jakati",
+  "display_name": "Shadab Bashir Jakati",
+  "first_name": "Shadab",
+  "last_name": "Jakati",
+  "date_of_birth": "27/11/1980",
+  "age": 45,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Bowler",
+  "batting_style": "Left-hand bat",
+  "bowling_style": "Slow left-arm orthodox",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

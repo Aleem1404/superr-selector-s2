@@ -1,0 +1,7 @@
+team_name,team_code,player_name,full_name,is_overseas,previous_salary_crores,previous_salary_lakhs,previous_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Punjab Kings,PBKS,Nehal Wadhera,Nehal Wadhera,False,4.2,420.0,₹4.20 Cr,Top-order batter,India,Left hand Bat,Legbreak,1151273
+Punjab Kings,PBKS,Mitch Owen,Mitchell J Owen,True,3.0,300.0,₹3.00 Cr,Allrounder,Australia,Right hand Bat,Right arm Medium,1213979
+Punjab Kings,PBKS,Lockie Ferguson,Lachlan Hammond Ferguson,True,2.0,200.0,₹2.00 Cr,Bowler,New Zealand,Right hand Bat,Right arm Fast,493773
+Punjab Kings,PBKS,Pravin Dubey,Pravin Dubey,False,0.3,30.0,₹30 Lakh,,India,,,
+Punjab Kings,PBKS,Pyla Avinash,Pyla Avinash,False,0.3,30.0,₹30 Lakh,Batter,India,Right hand Bat,Right arm Medium fast,1324449
+Punjab Kings,PBKS,Vishal Nishad,Vishal Nishad,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Legbreak,1449053

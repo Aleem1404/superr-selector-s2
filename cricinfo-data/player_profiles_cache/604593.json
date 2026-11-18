@@ -1,0 +1,16 @@
+{
+  "full_name": "Vishnu Purshottam Solanki",
+  "short_name": "Vishnu Solanki",
+  "display_name": "Vishnu Purshottam Solanki",
+  "first_name": "Vishnu",
+  "last_name": "Solanki",
+  "date_of_birth": "15/10/1992",
+  "age": 34,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Middle-order batter",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm offbreak",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

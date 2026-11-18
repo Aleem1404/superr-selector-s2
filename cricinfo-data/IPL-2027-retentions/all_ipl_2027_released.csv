@@ -1,0 +1,90 @@
+team_name,team_code,player_name,full_name,is_overseas,previous_salary_crores,previous_salary_lakhs,previous_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Chennai Super Kings,CSK,Prashant Veer,Prashant Ramendra Veer,False,14.2,1420.0,₹14.20 Cr,Bowling allrounder,India,Left hand Bat,Slow Left arm Orthodox,1403197
+Chennai Super Kings,CSK,MS Dhoni,Mahendra Singh Dhoni,False,4.0,400.0,₹4.00 Cr,Wicketkeeper batter,India,Right hand Bat,Right arm Medium,28081
+Chennai Super Kings,CSK,Matt Henry,Matthew James Henry,True,2.0,200.0,₹2.00 Cr,Bowler,New Zealand,Right hand Bat,Right arm Fast medium,506612
+Chennai Super Kings,CSK,Matthew Short,Matthew William Short,True,1.5,150.0,₹1.50 Cr,Batting allrounder,Australia,Right hand Bat,Right arm Offbreak,605575
+Chennai Super Kings,CSK,Spencer Johnson,Spencer Henry Johnson,True,1.5,150.0,₹1.50 Cr,Bowler,Australia,Left hand Bat,Left arm Fast,1123718
+Chennai Super Kings,CSK,Dian Forrester,Dian Forrester,True,0.75,75.0,₹75 Lakh,Batting allrounder,South Africa,Left hand Bat,Right arm Fast,696471
+Chennai Super Kings,CSK,Zak Foulkes,Zakary Glen Foulkes,True,0.75,75.0,₹75 Lakh,Bowling allrounder,New Zealand,Right hand Bat,Right arm Medium,1202098
+Chennai Super Kings,CSK,Aman Khan,Aman Khan,False,0.4,40.0,₹40 Lakh,Allrounder,India,Right hand Bat,Right arm Medium,1254269
+Chennai Super Kings,CSK,Akash Madhwal,Akash Madhwal,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Right arm Medium fast,1206039
+Chennai Super Kings,CSK,Kuldip Yadav,Kuldip Yadav,False,0.3,30.0,₹30 Lakh,Bowler,India,Left hand Bat,Left arm Fast medium,1206495
+Chennai Super Kings,CSK,Macneil Noronha,Macneil Hadley Noronha,False,0.3,30.0,₹30 Lakh,Allrounder,India,Right hand Bat,Right arm Offbreak,1327725
+Delhi Capitals,DC,Mitchell Starc,Mitchell Aaron Starc,True,11.75,1175.0,₹11.75 Cr,Bowler,Australia,Left hand Bat,Left arm Fast,311592
+Delhi Capitals,DC,Nitish Rana,Nitish Rana,False,4.2,420.0,₹4.20 Cr,Middle-order batter,India,Left hand Bat,"Right arm Medium, Right arm Offbreak, Legbreak",604527
+Delhi Capitals,DC,Abhishek Porel,Abhishek Porel,False,4.0,400.0,₹4.00 Cr,,India,,,
+Delhi Capitals,DC,Pathum Nissanka,Pathum Nissanka Silva,True,4.0,400.0,₹4.00 Cr,Top-order batter,Sri Lanka,Right hand Bat,,1028655
+Delhi Capitals,DC,Dushmantha Chameera,Dushmantha Chameera,True,0.75,75.0,₹75 Lakh,Bowler,Overseas,Right hand Bat,Right arm Fast,552152
+Delhi Capitals,DC,Rehan Ahmed,Rehan Ahmed,True,0.75,75.0,₹75 Lakh,Bowling allrounder,England,Right hand Bat,Legbreak Googly,1263691
+Delhi Capitals,DC,Karun Nair,Karun Nair,False,0.5,50.0,₹50 Lakh,Top-order batter,India,Right hand Bat,Right arm Offbreak,398439
+Delhi Capitals,DC,Ajay Mandal,Ajay Jadav Mandal,False,0.3,30.0,₹30 Lakh,Allrounder,India,Left hand Bat,Slow Left arm Orthodox,1059570
+Delhi Capitals,DC,Sahil Parakh,Sahil Ulhas Parakh,False,0.3,30.0,₹30 Lakh,Top-order batter,India,Left hand Bat,Legbreak,1451028
+Gujarat Titans,GT,Shahrukh Khan,Masood Shahrukh Khan,False,4.0,400.0,₹4.00 Cr,Batter,India,Right hand Bat,Right arm Offbreak,719719
+Gujarat Titans,GT,Connor Esterhuizen,Connor Esterhuizen,True,0.75,75.0,₹75 Lakh,Top-order batter,South Africa,Right hand Bat,,1070997
+Gujarat Titans,GT,Ishant Sharma,Ishant Sharma,False,0.75,75.0,₹75 Lakh,Bowler,India,Right hand Bat,Right arm Fast medium,236779
+Gujarat Titans,GT,Luke Wood,Luke Wood,True,0.75,75.0,₹75 Lakh,Bowler,England,Left hand Bat,Left arm Fast medium,573170
+Gujarat Titans,GT,Kulwant Khejroliya,Kulwant Khejroliya,False,0.3,30.0,₹30 Lakh,Bowler,India,Left hand Bat,Left arm Medium fast,1083033
+Gujarat Titans,GT,Prithviraj Yarra,Prithviraj Yarra,False,0.3,30.0,₹30 Lakh,,India,,,
+Kolkata Knight Riders,KKR,Matheesha Pathirana,Matheesha Pathirana,True,18.0,1800.0,₹18.00 Cr,Bowler,Sri Lanka,Right hand Bat,Right arm Fast,1194795
+Kolkata Knight Riders,KKR,Mustafizur Rahman,Mustafizur Rahman,True,9.2,920.0,₹9.20 Cr,Bowler,Bangladesh,Left hand Bat,Left arm Fast medium,330902
+Kolkata Knight Riders,KKR,Tejasvi Singh,Tejasvi Singh,False,3.0,300.0,₹3.00 Cr,,India,,,
+Kolkata Knight Riders,KKR,Rachin Ravindra,Rachin Ravindra,True,2.0,200.0,₹2.00 Cr,Batting allrounder,New Zealand,Left hand Bat,Slow Left arm Orthodox,959767
+Kolkata Knight Riders,KKR,Ajinkya Rahane,Ajinkya Madhukar Rahane,False,1.5,150.0,₹1.50 Cr,Top-order batter,India,Right hand Bat,Right arm Medium,277916
+Kolkata Knight Riders,KKR,Blessing Muzarabani,Blessing Muzarabani,True,1.5,150.0,₹1.50 Cr,Bowler,Zimbabwe,Right hand Bat,Right arm Fast medium,827051
+Kolkata Knight Riders,KKR,Akash Deep,Akash Deep,False,1.0,100.0,₹1.00 Cr,Bowler,India,Right hand Bat,Right arm Fast medium,1176959
+Kolkata Knight Riders,KKR,Navdeep Saini,Navdeep Amarjeet Saini,False,0.75,75.0,₹75 Lakh,Bowler,India,Right hand Bat,Right arm Fast,700167
+Kolkata Knight Riders,KKR,Rahul Tripathi,Rahul Ajay Tripathi,False,0.75,75.0,₹75 Lakh,Top-order batter,India,Right hand Bat,Right arm Medium,446763
+Kolkata Knight Riders,KKR,Umran Malik,Umran Malik,False,0.75,75.0,₹75 Lakh,Bowler,India,Right hand Bat,Right arm Fast,1246528
+Kolkata Knight Riders,KKR,Daksh Kamra,Daksh Kamra,False,0.3,30.0,₹30 Lakh,Allrounder,India,Right hand Bat,Legbreak Googly,1515048
+Kolkata Knight Riders,KKR,Luvnith Sisodia,Luvnith Sujith Sisodia,False,0.3,30.0,₹30 Lakh,Wicketkeeper batter,India,Left hand Bat,Left arm Medium,1155253
+Lucknow Super Giants,LSG,Avesh Khan,Avesh Khan,False,9.75,975.0,₹9.75 Cr,Bowler,India,Right hand Bat,Right arm Fast medium,694211
+Lucknow Super Giants,LSG,Anrich Nortje,Anrich Arno Nortje,True,2.0,200.0,₹2.00 Cr,Bowler,South Africa,Right hand Bat,Right arm Fast,481979
+Lucknow Super Giants,LSG,Wanindu Hasaranga,Pinnaduwage Wanindu Hasaranga de Silva,True,2.0,200.0,₹2.00 Cr,Allrounder,Sri Lanka,Right hand Bat,Legbreak,784379
+Lucknow Super Giants,LSG,George Linde,George Fredrik Linde,True,1.0,100.0,₹1.00 Cr,Allrounder,South Africa,Left hand Bat,Slow Left arm Orthodox,481875
+Lucknow Super Giants,LSG,Naman Tiwari,Naman Tiwari,False,1.0,100.0,₹1.00 Cr,Bowler,India,Left hand Bat,Left arm Medium fast,1408677
+Lucknow Super Giants,LSG,Matthew Breetzke,Matthew Paul Breetzke,True,0.75,75.0,₹75 Lakh,Batter,South Africa,Right hand Bat,,595267
+Lucknow Super Giants,LSG,Himmat Singh,Himmat Singh,False,0.3,30.0,₹30 Lakh,Batter,India,Right hand Bat,Right arm Offbreak,805235
+Mumbai Indians,MI,Trent Boult,Trent Alexander Boult,True,12.5,1250.0,₹12.50 Cr,Bowler,New Zealand,Right hand Bat,Left arm Fast medium,277912
+Mumbai Indians,MI,Deepak Chahar,Deepak Lokandersingh Chahar,False,9.25,925.0,₹9.25 Cr,Bowler,India,Right hand Bat,Right arm Medium,447261
+Mumbai Indians,MI,AM Ghazanfar,AM Ghazanfar,True,4.8,480.0,₹4.80 Cr,Bowler,Afghanistan,Right hand Bat,"Right arm Offbreak, Legbreak",1326798
+Mumbai Indians,MI,Keshav Maharaj,Keshav Athmanand Maharaj,True,0.75,75.0,₹75 Lakh,Bowler,South Africa,Right hand Bat,Slow Left arm Orthodox,267724
+Mumbai Indians,MI,Robin Minz,Robin Minz,False,0.65,65.0,₹65 Lakh,Wicketkeeper batter,India,Left hand Bat,Slow Left arm Orthodox,1350762
+Mumbai Indians,MI,Mahipal Lamror,Mahipal Lamror,False,0.5,50.0,₹50 Lakh,,India,,,
+Mumbai Indians,MI,Atharva Ankolekar,Atharva Vinod Ankolekar,False,0.3,30.0,₹30 Lakh,Allrounder,India,Left hand Bat,Slow Left arm Orthodox,1175467
+Mumbai Indians,MI,Danish Malewar,Danish Vishnu Malewar,False,0.3,30.0,₹30 Lakh,Top-order batter,India,Right hand Bat,Legbreak,1421992
+Mumbai Indians,MI,Krish Bhagat,Krish Bhagat,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Right arm Medium,1454586
+Mumbai Indians,MI,Mayank Markande,Mayank Markande,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Legbreak,1081442
+Mumbai Indians,MI,Mayank Rawat,Mayank Ram Rawat,False,0.3,30.0,₹30 Lakh,Allrounder,India,Right hand Bat,Right arm Offbreak,1079847
+Mumbai Indians,MI,Mohammad Izhar,Mohammad Izhar,False,0.3,30.0,₹30 Lakh,,India,,,
+Mumbai Indians,MI,Ruchit Ahir,Ruchit Ahir,False,0.3,30.0,₹30 Lakh,Batter,India,Right hand Bat,Right arm Medium fast,1395884
+Punjab Kings,PBKS,Nehal Wadhera,Nehal Wadhera,False,4.2,420.0,₹4.20 Cr,Top-order batter,India,Left hand Bat,Legbreak,1151273
+Punjab Kings,PBKS,Mitch Owen,Mitchell J Owen,True,3.0,300.0,₹3.00 Cr,Allrounder,Australia,Right hand Bat,Right arm Medium,1213979
+Punjab Kings,PBKS,Lockie Ferguson,Lachlan Hammond Ferguson,True,2.0,200.0,₹2.00 Cr,Bowler,New Zealand,Right hand Bat,Right arm Fast,493773
+Punjab Kings,PBKS,Pravin Dubey,Pravin Dubey,False,0.3,30.0,₹30 Lakh,,India,,,
+Punjab Kings,PBKS,Pyla Avinash,Pyla Avinash,False,0.3,30.0,₹30 Lakh,Batter,India,Right hand Bat,Right arm Medium fast,1324449
+Punjab Kings,PBKS,Vishal Nishad,Vishal Nishad,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Legbreak,1449053
+Rajasthan Royals,RR,Shimron Hetmyer,Shimron Odilon Hetmyer,True,11.0,1100.0,₹11.00 Cr,Middle-order batter,West Indies,Left hand Bat,,670025
+Rajasthan Royals,RR,Tushar Deshpande,Tushar Uday Deshpande,False,6.5,650.0,₹6.50 Cr,Bowler,India,Left hand Bat,Right arm Medium fast,822553
+Rajasthan Royals,RR,Adam Milne,Adam Fraser Milne,True,2.4,240.0,₹2.40 Cr,Bowler,New Zealand,Right hand Bat,Right arm Fast,450860
+Rajasthan Royals,RR,Kwena Maphaka,Kwena Tshegofatso Maphaka,True,1.5,150.0,₹1.50 Cr,Bowler,South Africa,Left hand Bat,Left arm Fast,1294342
+Rajasthan Royals,RR,Ravi Singh,Ravi Singh,False,0.95,95.0,₹95 Lakh,Middle order Batter,India,Left hand Bat,Legbreak,1461577
+Rajasthan Royals,RR,Kuldeep Sen,Kuldeep Rampal Sen,False,0.75,75.0,₹75 Lakh,Bowler,India,Right hand Bat,Right arm Fast,1163695
+Rajasthan Royals,RR,Yudhvir Charak,Yudhvir Singh Charak,False,0.35,35.0,₹35 Lakh,Bowler,India,Right hand Bat,Right arm Medium fast,1206052
+Rajasthan Royals,RR,Emanjot Chahal,Emanjot Singh Chahal,False,0.3,30.0,₹30 Lakh,Allrounder,India,Right hand Bat,Slow Left arm Orthodox,1454587
+Rajasthan Royals,RR,Vignesh Puthur,Vignesh Puthur,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Left arm Wrist spin,1460388
+Royal Challengers Bengaluru,RCB,Mangesh Yadav,Mangesh Yadav,False,5.2,520.0,₹5.20 Cr,Allrounder,India,Left hand Bat,Left arm Fast,1515303
+Royal Challengers Bengaluru,RCB,Jacob Bethell,Jacob Graham Bethell,True,2.6,260.0,₹2.60 Cr,Batting allrounder,England,Left hand Bat,Slow Left arm Orthodox,1194959
+Royal Challengers Bengaluru,RCB,Richard Gleeson,Richard James Gleeson,True,1.6,160.0,₹1.60 Cr,Bowler,England,Right hand Bat,Right arm Fast medium,473191
+Royal Challengers Bengaluru,RCB,Swapnil Singh,Swapnil Singh,False,0.5,50.0,₹50 Lakh,Bowler,India,Right hand Bat,Slow Left arm Orthodox,232292
+Royal Challengers Bengaluru,RCB,Satvik Deswal,Satvik Deswal,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Slow Left arm Orthodox,1515302
+Royal Challengers Bengaluru,RCB,Vihaan Malhotra,Vihaan Manoj Malhotra,False,0.3,30.0,₹30 Lakh,Batting allrounder,India,Left hand Bat,Right arm Offbreak,1354132
+Sunrisers Hyderabad,SRH,Travis Head,Travis Michael Head,True,14.0,1400.0,₹14.00 Cr,Middle-order batter,Australia,Left hand Bat,Right arm Offbreak,530011
+Sunrisers Hyderabad,SRH,Gerald Coetzee,Gerald Coetzee,True,2.0,200.0,₹2.00 Cr,Bowler,South Africa,Right hand Bat,Right arm Fast,596010
+Sunrisers Hyderabad,SRH,David Payne,David Alan Payne,True,1.5,150.0,₹1.50 Cr,Bowler,England,Right hand Bat,Left arm Fast medium,362710
+Sunrisers Hyderabad,SRH,Jaydev Unadkat,Jaydev Dipakbhai Unadkat,False,1.0,100.0,₹1.00 Cr,Bowler,India,Right hand Bat,Left arm Medium,390484
+Sunrisers Hyderabad,SRH,Dilshan Madushanka,Lokumarakkalage Dilshan Madushanka,True,0.75,75.0,₹75 Lakh,Bowler,Sri Lanka,Right hand Bat,Left arm Fast medium,793007
+Sunrisers Hyderabad,SRH,Kamindu Mendis,Pasqual Handi Kamindu Dilanka Mendis,True,0.75,75.0,₹75 Lakh,Allrounder,Sri Lanka,Left hand Bat,"Right arm Offbreak, Slow Left arm Orthodox",784373
+Sunrisers Hyderabad,SRH,Shivam Mavi,Shivam Pankaj Mavi,False,0.75,75.0,₹75 Lakh,Bowling allrounder,India,Right hand Bat,Right arm Fast medium,1079848
+Sunrisers Hyderabad,SRH,Amit Kumar,Amit Kumar,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Legbreak Googly,1512257
+Sunrisers Hyderabad,SRH,Onkar Tarmale,Onkar Tarmale,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Right arm Fast,1515304
+Sunrisers Hyderabad,SRH,R.S.Ambrish,R.S.Ambrish,False,0.3,30.0,₹30 Lakh,,India,,,

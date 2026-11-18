@@ -1,0 +1,10 @@
+team_name,team_code,player_name,full_name,is_overseas,previous_salary_crores,previous_salary_lakhs,previous_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Rajasthan Royals,RR,Shimron Hetmyer,Shimron Odilon Hetmyer,True,11.0,1100.0,₹11.00 Cr,Middle-order batter,West Indies,Left hand Bat,,670025
+Rajasthan Royals,RR,Tushar Deshpande,Tushar Uday Deshpande,False,6.5,650.0,₹6.50 Cr,Bowler,India,Left hand Bat,Right arm Medium fast,822553
+Rajasthan Royals,RR,Adam Milne,Adam Fraser Milne,True,2.4,240.0,₹2.40 Cr,Bowler,New Zealand,Right hand Bat,Right arm Fast,450860
+Rajasthan Royals,RR,Kwena Maphaka,Kwena Tshegofatso Maphaka,True,1.5,150.0,₹1.50 Cr,Bowler,South Africa,Left hand Bat,Left arm Fast,1294342
+Rajasthan Royals,RR,Ravi Singh,Ravi Singh,False,0.95,95.0,₹95 Lakh,Middle order Batter,India,Left hand Bat,Legbreak,1461577
+Rajasthan Royals,RR,Kuldeep Sen,Kuldeep Rampal Sen,False,0.75,75.0,₹75 Lakh,Bowler,India,Right hand Bat,Right arm Fast,1163695
+Rajasthan Royals,RR,Yudhvir Charak,Yudhvir Singh Charak,False,0.35,35.0,₹35 Lakh,Bowler,India,Right hand Bat,Right arm Medium fast,1206052
+Rajasthan Royals,RR,Emanjot Chahal,Emanjot Singh Chahal,False,0.3,30.0,₹30 Lakh,Allrounder,India,Right hand Bat,Slow Left arm Orthodox,1454587
+Rajasthan Royals,RR,Vignesh Puthur,Vignesh Puthur,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Left arm Wrist spin,1460388

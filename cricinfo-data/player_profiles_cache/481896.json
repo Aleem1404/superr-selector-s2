@@ -1,0 +1,16 @@
+{
+  "full_name": "Mohammed Shami Ahmed",
+  "short_name": "Mohammed Shami",
+  "display_name": "Mohammed Shami Ahmed",
+  "first_name": "Mohammed",
+  "last_name": "Shami",
+  "date_of_birth": "3/9/1990",
+  "age": 36,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Bowler",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm fast",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/481896.png",
+  "is_active": true
+}

@@ -1,0 +1,16 @@
+{
+  "full_name": "Ali Ghulam Murtaza",
+  "short_name": "Ali Murtaza",
+  "display_name": "Ali Ghulam Murtaza",
+  "first_name": "Ali",
+  "last_name": "Murtaza",
+  "date_of_birth": "1/1/1990",
+  "age": 36,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Bowler",
+  "batting_style": "Left-hand bat",
+  "bowling_style": "Slow left-arm orthodox",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

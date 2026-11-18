@@ -1,0 +1,20 @@
+team_name,team_code,player_name,full_name,is_overseas,is_traded,retention_salary_crores,retention_salary_lakhs,retention_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Rajasthan Royals,RR,Yashasvi Jaiswal,Yashasvi Bhupendra Kumar Jaiswal,False,False,18.0,1800.0,₹18.00 Cr,Opening batter,India,Left hand Bat,"Right arm Offbreak, Legbreak",1151278
+Rajasthan Royals,RR,Dhruv Jurel,Dhruv Chand Jurel,False,False,14.0,1400.0,₹14.00 Cr,Wicketkeeper batter,India,Right hand Bat,Right arm Offbreak,1175488
+Rajasthan Royals,RR,Ravindra Jadeja,Ravindrasinh Anirudhsinh Jadeja,False,False,14.0,1400.0,₹14.00 Cr,Allrounder,India,Left hand Bat,Slow Left arm Orthodox,234675
+Rajasthan Royals,RR,Riyan Parag,Riyan Parag,False,False,14.0,1400.0,₹14.00 Cr,Top-order batter,India,Right hand Bat,"Right arm Offbreak, Legbreak",1079434
+Rajasthan Royals,RR,Jofra Archer,Jofra Chioke Archer,True,False,12.5,1250.0,₹12.50 Cr,Bowler,England,Right hand Bat,Right arm Fast,669855
+Rajasthan Royals,RR,Mohammed Shami,Mohammed Shami Ahmed,False,True,8.0,800.0,₹8.00 Cr,Bowler,India,Right hand Bat,Right arm Fast,481896
+Rajasthan Royals,RR,Ravi Bishnoi,Ravi Bishnoi,False,False,7.2,720.0,₹7.20 Cr,Bowler,India,Right hand Bat,Legbreak Googly,1175441
+Rajasthan Royals,RR,Sandeep Sharma,Sandeep Sharma,False,False,4.0,400.0,₹4.00 Cr,Bowler,India,Right hand Bat,Right arm Medium,438362
+Rajasthan Royals,RR,Nandre Burger,Nandre Burger,True,False,3.5,350.0,₹3.50 Cr,Bowler,South Africa,Left hand Bat,Left arm Fast medium,971349
+Rajasthan Royals,RR,Dasun Shanaka,Madagamagamage Dasun Shanaka,True,False,2.0,200.0,₹2.00 Cr,Allrounder,Sri Lanka,Right hand Bat,Right arm Medium,437316
+Rajasthan Royals,RR,Vaibhav Sooryavanshi,Vaibhav Sooryavanshi,False,False,1.1,110.0,₹1.10 Cr,Top-order batter,India,Left hand Bat,Slow Left arm Orthodox,1408688
+Rajasthan Royals,RR,Donovan Ferreira,Donovan Ferreira,True,False,1.0,100.0,₹1.00 Cr,Allrounder,South Africa,Right hand Bat,Right arm Offbreak,698315
+Rajasthan Royals,RR,Sushant Mishra,Sushant Samirkumar Mishra,False,False,0.9,90.0,₹90 Lakh,Bowler,India,Left hand Bat,Left arm Medium fast,1175457
+Rajasthan Royals,RR,Shubham Dubey,Shubham Badriprasad Dubey,False,False,0.8,80.0,₹80 Lakh,Middle-order batter,India,Left hand Bat,Right arm Offbreak,1252585
+Rajasthan Royals,RR,Manimaran Siddharth,Manimaran Siddharth,False,True,0.75,75.0,₹75 Lakh,Bowler,India,Right hand Bat,Slow Left arm Orthodox,1151286
+Rajasthan Royals,RR,Aman Rao Perala,Aman Rao Perala,False,False,0.3,30.0,₹30 Lakh,,India,,,
+Rajasthan Royals,RR,Brijesh Sharma,Brijesh Sharma,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Right arm Medium,1515046
+Rajasthan Royals,RR,Lhuan-dre Pretorius,Lhuan-dre Gilbert  Pretorius,True,False,0.3,30.0,₹30 Lakh,Wicketkeeper batter,South Africa,Left hand Bat,,1385640
+Rajasthan Royals,RR,Yash Raj Punja,Yash Raj Punja,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Legbreak Googly,1515186

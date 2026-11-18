@@ -1,0 +1,16 @@
+{
+  "full_name": "David Andrew Warner",
+  "short_name": "David Warner",
+  "display_name": "David Andrew Warner",
+  "first_name": "David",
+  "last_name": "Warner",
+  "date_of_birth": "27/10/1986",
+  "age": 40,
+  "gender": "M",
+  "country": "Australia",
+  "playing_role": "Opening batter",
+  "batting_style": "Left-hand bat",
+  "bowling_style": "Legbreak",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/219889.png",
+  "is_active": true
+}

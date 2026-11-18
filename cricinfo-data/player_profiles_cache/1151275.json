@@ -1,0 +1,16 @@
+{
+  "full_name": "Mohit Jangra",
+  "short_name": "Mohit Jangra",
+  "display_name": "Mohit Jangra",
+  "first_name": "Mohit",
+  "last_name": "Jangra",
+  "date_of_birth": "27/9/1999",
+  "age": 27,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Unknown",
+  "batting_style": "Left-hand bat",
+  "bowling_style": "Left-arm medium",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

@@ -1,0 +1,16 @@
+{
+  "full_name": "Atit Arpit Sheth",
+  "short_name": "Atit Sheth",
+  "display_name": "Atit Arpit Sheth",
+  "first_name": "Atit",
+  "last_name": "Sheth",
+  "date_of_birth": "3/2/1996",
+  "age": 30,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Allrounder",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm medium",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

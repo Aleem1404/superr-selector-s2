@@ -1,0 +1,16 @@
+{
+  "full_name": "Ankit Nagendra Sharma",
+  "short_name": "Ankit Sharma",
+  "display_name": "Ankit Nagendra Sharma",
+  "first_name": "Ankit",
+  "last_name": "Sharma",
+  "date_of_birth": "20/4/1991",
+  "age": 35,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Bowler",
+  "batting_style": "Left-hand bat",
+  "bowling_style": "Slow left-arm orthodox",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

@@ -1,0 +1,13 @@
+team_name,team_code,player_name,full_name,is_overseas,previous_salary_crores,previous_salary_lakhs,previous_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Kolkata Knight Riders,KKR,Matheesha Pathirana,Matheesha Pathirana,True,18.0,1800.0,₹18.00 Cr,Bowler,Sri Lanka,Right hand Bat,Right arm Fast,1194795
+Kolkata Knight Riders,KKR,Mustafizur Rahman,Mustafizur Rahman,True,9.2,920.0,₹9.20 Cr,Bowler,Bangladesh,Left hand Bat,Left arm Fast medium,330902
+Kolkata Knight Riders,KKR,Tejasvi Singh,Tejasvi Singh,False,3.0,300.0,₹3.00 Cr,,India,,,
+Kolkata Knight Riders,KKR,Rachin Ravindra,Rachin Ravindra,True,2.0,200.0,₹2.00 Cr,Batting allrounder,New Zealand,Left hand Bat,Slow Left arm Orthodox,959767
+Kolkata Knight Riders,KKR,Ajinkya Rahane,Ajinkya Madhukar Rahane,False,1.5,150.0,₹1.50 Cr,Top-order batter,India,Right hand Bat,Right arm Medium,277916
+Kolkata Knight Riders,KKR,Blessing Muzarabani,Blessing Muzarabani,True,1.5,150.0,₹1.50 Cr,Bowler,Zimbabwe,Right hand Bat,Right arm Fast medium,827051
+Kolkata Knight Riders,KKR,Akash Deep,Akash Deep,False,1.0,100.0,₹1.00 Cr,Bowler,India,Right hand Bat,Right arm Fast medium,1176959
+Kolkata Knight Riders,KKR,Navdeep Saini,Navdeep Amarjeet Saini,False,0.75,75.0,₹75 Lakh,Bowler,India,Right hand Bat,Right arm Fast,700167
+Kolkata Knight Riders,KKR,Rahul Tripathi,Rahul Ajay Tripathi,False,0.75,75.0,₹75 Lakh,Top-order batter,India,Right hand Bat,Right arm Medium,446763
+Kolkata Knight Riders,KKR,Umran Malik,Umran Malik,False,0.75,75.0,₹75 Lakh,Bowler,India,Right hand Bat,Right arm Fast,1246528
+Kolkata Knight Riders,KKR,Daksh Kamra,Daksh Kamra,False,0.3,30.0,₹30 Lakh,Allrounder,India,Right hand Bat,Legbreak Googly,1515048
+Kolkata Knight Riders,KKR,Luvnith Sisodia,Luvnith Sujith Sisodia,False,0.3,30.0,₹30 Lakh,Wicketkeeper batter,India,Left hand Bat,Left arm Medium,1155253

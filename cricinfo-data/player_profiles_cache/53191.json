@@ -1,0 +1,16 @@
+{
+  "full_name": "Jerome Everton Taylor",
+  "short_name": "Jerome Taylor",
+  "display_name": "Jerome Everton Taylor",
+  "first_name": "Jerome",
+  "last_name": "Taylor",
+  "date_of_birth": "22/6/1984",
+  "age": 42,
+  "gender": "M",
+  "country": "West Indies",
+  "playing_role": "Bowler",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm fast",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/53191.png",
+  "is_active": true
+}

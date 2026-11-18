@@ -1,0 +1,16 @@
+{
+  "full_name": "Johan Botha",
+  "short_name": "Johan Botha",
+  "display_name": "Johan Botha",
+  "first_name": "Johan",
+  "last_name": "Botha",
+  "date_of_birth": "2/5/1982",
+  "age": 44,
+  "gender": "M",
+  "country": "South Africa",
+  "playing_role": "Allrounder",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm offbreak",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

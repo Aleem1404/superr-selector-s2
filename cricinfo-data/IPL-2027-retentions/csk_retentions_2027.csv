@@ -1,0 +1,20 @@
+team_name,team_code,player_name,full_name,is_overseas,is_traded,retention_salary_crores,retention_salary_lakhs,retention_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Chennai Super Kings,CSK,Ruturaj Gaikwad,Ruturaj Dashrat Gaikwad,False,False,18.0,1800.0,₹18.00 Cr,Batter,India,Right hand Bat,Right arm Offbreak,1060380
+Chennai Super Kings,CSK,Sanju Samson,Sanju Viswanath Samson,False,False,18.0,1800.0,₹18.00 Cr,Wicketkeeper batter,India,Right hand Bat,,425943
+Chennai Super Kings,CSK,Kartik Sharma,Kartik Sharma,False,False,14.2,1420.0,₹14.20 Cr,Wicketkeeper batter,India,Right hand Bat,,1459392
+Chennai Super Kings,CSK,Shivam Dube,Shivam Dube,False,False,12.0,1200.0,₹12.00 Cr,Allrounder,India,Left hand Bat,Right arm Medium,714451
+Chennai Super Kings,CSK,Noor Ahmad,Noor Ahmad Lakanwal,True,False,10.0,1000.0,₹10.00 Cr,Bowler,Afghanistan,Right hand Bat,Left arm Wrist spin,1182529
+Chennai Super Kings,CSK,Liam Livingstone,Liam Stephen Livingstone,True,True,6.0,600.0,₹6.00 Cr,Batting allrounder,England,Right hand Bat,"Right arm Offbreak, Legbreak",403902
+Chennai Super Kings,CSK,Rahul Chahar,Rahul Desraj Chahar,False,False,5.2,520.0,₹5.20 Cr,Bowler,India,Right hand Bat,Legbreak Googly,1064812
+Chennai Super Kings,CSK,Anshul Kamboj,Anshul Kamboj,False,False,3.4,340.0,₹3.40 Cr,Bowling allrounder,India,Right hand Bat,Right arm Medium,1175428
+Chennai Super Kings,CSK,Jack Edwards,Jack Richard Edwards,True,True,3.0,300.0,₹3.00 Cr,Allrounder,Australia,Right hand Bat,Right arm Medium,1088610
+Chennai Super Kings,CSK,Dewald Brevis,Dewald Brevis,True,False,2.2,220.0,₹2.20 Cr,Middle-order batter,South Africa,Right hand Bat,Legbreak,1070665
+Chennai Super Kings,CSK,Gurjapneet Singh,Gurjapneet Singh,False,False,2.2,220.0,₹2.20 Cr,Bowler,India,Right hand Bat,Left arm Medium fast,1269869
+Chennai Super Kings,CSK,Akeal Hosein,Akeal Jerome Hosein,True,False,2.0,200.0,₹2.00 Cr,Bowler,West Indies,Left hand Bat,Slow Left arm Orthodox,530812
+Chennai Super Kings,CSK,Jamie Overton,Jamie Overton,True,False,1.5,150.0,₹1.50 Cr,Bowling allrounder,England,Right hand Bat,Right arm Fast,510530
+Chennai Super Kings,CSK,Sarfaraz Khan,Sarfaraz Naushad Khan,False,False,0.75,75.0,₹75 Lakh,Middle-order batter,India,Right hand Bat,Legbreak,642525
+Chennai Super Kings,CSK,Ayush Mhatre,Ayush Mhatre,False,False,0.3,30.0,₹30 Lakh,Top-order batter,India,Right hand Bat,Right arm Offbreak,1452455
+Chennai Super Kings,CSK,Mukesh Choudhary,Mukesh Choudhary,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Left hand Bat,Left arm Medium,1125688
+Chennai Super Kings,CSK,Ramakrishna Ghosh,Ramakrishna Ghosh,False,False,0.3,30.0,₹30 Lakh,Bowling Allrounder,India,Right hand Bat,Right arm Medium fast,1339053
+Chennai Super Kings,CSK,Shreyas Gopal,Shreyas Gopal,False,False,0.3,30.0,₹30 Lakh,Bowling allrounder,India,Right hand Bat,Legbreak,344580
+Chennai Super Kings,CSK,Urvil Patel,Urvil Mukesh Patel,False,False,0.3,30.0,₹30 Lakh,Wicketkeeper batter,India,Right hand Bat,,1131570

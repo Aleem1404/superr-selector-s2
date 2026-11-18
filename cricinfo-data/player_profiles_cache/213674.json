@@ -1,0 +1,16 @@
+{
+  "full_name": "Todd Duncan Astle",
+  "short_name": "Todd Astle",
+  "display_name": "Todd Duncan Astle",
+  "first_name": "Todd",
+  "last_name": "Astle",
+  "date_of_birth": "24/9/1986",
+  "age": 40,
+  "gender": "M",
+  "country": "New Zealand",
+  "playing_role": "Bowler",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Legbreak",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

@@ -1,0 +1,16 @@
+{
+  "full_name": "Andrew Symonds",
+  "short_name": "Andrew Symonds",
+  "display_name": "Andrew Symonds",
+  "first_name": "Andrew",
+  "last_name": "Symonds",
+  "date_of_birth": "9/6/1975",
+  "age": 46,
+  "gender": "M",
+  "country": "Australia",
+  "playing_role": "Allrounder",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm medium",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

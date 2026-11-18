@@ -1,0 +1,16 @@
+{
+  "full_name": "Jayant Yadav",
+  "short_name": "Jayant Yadav",
+  "display_name": "Jayant Yadav",
+  "first_name": "Jayant",
+  "last_name": "Yadav",
+  "date_of_birth": "22/1/1990",
+  "age": 36,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Bowler",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm offbreak",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/full/447587.png",
+  "is_active": true
+}

@@ -1,0 +1,16 @@
+{
+  "full_name": "Abin Mathew",
+  "short_name": "Abin Mathew",
+  "display_name": "Abin Mathew",
+  "first_name": "Abin",
+  "last_name": "Mathew",
+  "date_of_birth": "5/11/1997",
+  "age": 29,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Unknown",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm medium-fast",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

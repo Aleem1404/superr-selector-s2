@@ -1,0 +1,16 @@
+{
+  "full_name": "Fazil Rashid",
+  "short_name": "Fazil Rashid",
+  "display_name": "Fazil Rashid",
+  "first_name": "Fazil",
+  "last_name": "Rashid",
+  "date_of_birth": "11/12/1996",
+  "age": 29,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Unknown",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

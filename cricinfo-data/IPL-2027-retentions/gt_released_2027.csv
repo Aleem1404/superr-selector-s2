@@ -1,0 +1,7 @@
+team_name,team_code,player_name,full_name,is_overseas,previous_salary_crores,previous_salary_lakhs,previous_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Gujarat Titans,GT,Shahrukh Khan,Masood Shahrukh Khan,False,4.0,400.0,₹4.00 Cr,Batter,India,Right hand Bat,Right arm Offbreak,719719
+Gujarat Titans,GT,Connor Esterhuizen,Connor Esterhuizen,True,0.75,75.0,₹75 Lakh,Top-order batter,South Africa,Right hand Bat,,1070997
+Gujarat Titans,GT,Ishant Sharma,Ishant Sharma,False,0.75,75.0,₹75 Lakh,Bowler,India,Right hand Bat,Right arm Fast medium,236779
+Gujarat Titans,GT,Luke Wood,Luke Wood,True,0.75,75.0,₹75 Lakh,Bowler,England,Left hand Bat,Left arm Fast medium,573170
+Gujarat Titans,GT,Kulwant Khejroliya,Kulwant Khejroliya,False,0.3,30.0,₹30 Lakh,Bowler,India,Left hand Bat,Left arm Medium fast,1083033
+Gujarat Titans,GT,Prithviraj Yarra,Prithviraj Yarra,False,0.3,30.0,₹30 Lakh,,India,,,

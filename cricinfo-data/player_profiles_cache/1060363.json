@@ -1,0 +1,16 @@
+{
+  "full_name": "Lalit Manoharsingh Yadav",
+  "short_name": "Lalit Yadav",
+  "display_name": "Lalit Manoharsingh Yadav",
+  "first_name": "Lalit",
+  "last_name": "Yadav",
+  "date_of_birth": "17/12/1995",
+  "age": 30,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Unknown",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm medium-fast",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

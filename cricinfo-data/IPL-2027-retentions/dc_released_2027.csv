@@ -1,0 +1,10 @@
+team_name,team_code,player_name,full_name,is_overseas,previous_salary_crores,previous_salary_lakhs,previous_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Delhi Capitals,DC,Mitchell Starc,Mitchell Aaron Starc,True,11.75,1175.0,₹11.75 Cr,Bowler,Australia,Left hand Bat,Left arm Fast,311592
+Delhi Capitals,DC,Nitish Rana,Nitish Rana,False,4.2,420.0,₹4.20 Cr,Middle-order batter,India,Left hand Bat,"Right arm Medium, Right arm Offbreak, Legbreak",604527
+Delhi Capitals,DC,Abhishek Porel,Abhishek Porel,False,4.0,400.0,₹4.00 Cr,,India,,,
+Delhi Capitals,DC,Pathum Nissanka,Pathum Nissanka Silva,True,4.0,400.0,₹4.00 Cr,Top-order batter,Sri Lanka,Right hand Bat,,1028655
+Delhi Capitals,DC,Dushmantha Chameera,Dushmantha Chameera,True,0.75,75.0,₹75 Lakh,Bowler,Overseas,Right hand Bat,Right arm Fast,552152
+Delhi Capitals,DC,Rehan Ahmed,Rehan Ahmed,True,0.75,75.0,₹75 Lakh,Bowling allrounder,England,Right hand Bat,Legbreak Googly,1263691
+Delhi Capitals,DC,Karun Nair,Karun Nair,False,0.5,50.0,₹50 Lakh,Top-order batter,India,Right hand Bat,Right arm Offbreak,398439
+Delhi Capitals,DC,Ajay Mandal,Ajay Jadav Mandal,False,0.3,30.0,₹30 Lakh,Allrounder,India,Left hand Bat,Slow Left arm Orthodox,1059570
+Delhi Capitals,DC,Sahil Parakh,Sahil Ulhas Parakh,False,0.3,30.0,₹30 Lakh,Top-order batter,India,Left hand Bat,Legbreak,1451028

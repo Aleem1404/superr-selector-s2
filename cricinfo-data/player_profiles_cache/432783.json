@@ -1,0 +1,16 @@
+{
+  "full_name": "Sachin Baby",
+  "short_name": "Sachin Baby",
+  "display_name": "Sachin Baby",
+  "first_name": "Sachin",
+  "last_name": "Baby",
+  "date_of_birth": "18/12/1988",
+  "age": 37,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Batter",
+  "batting_style": "Left-hand bat",
+  "bowling_style": "Right-arm offbreak",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

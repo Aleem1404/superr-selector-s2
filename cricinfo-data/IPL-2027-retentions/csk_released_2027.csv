@@ -1,0 +1,12 @@
+team_name,team_code,player_name,full_name,is_overseas,previous_salary_crores,previous_salary_lakhs,previous_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Chennai Super Kings,CSK,Prashant Veer,Prashant Ramendra Veer,False,14.2,1420.0,₹14.20 Cr,Bowling allrounder,India,Left hand Bat,Slow Left arm Orthodox,1403197
+Chennai Super Kings,CSK,MS Dhoni,Mahendra Singh Dhoni,False,4.0,400.0,₹4.00 Cr,Wicketkeeper batter,India,Right hand Bat,Right arm Medium,28081
+Chennai Super Kings,CSK,Matt Henry,Matthew James Henry,True,2.0,200.0,₹2.00 Cr,Bowler,New Zealand,Right hand Bat,Right arm Fast medium,506612
+Chennai Super Kings,CSK,Matthew Short,Matthew William Short,True,1.5,150.0,₹1.50 Cr,Batting allrounder,Australia,Right hand Bat,Right arm Offbreak,605575
+Chennai Super Kings,CSK,Spencer Johnson,Spencer Henry Johnson,True,1.5,150.0,₹1.50 Cr,Bowler,Australia,Left hand Bat,Left arm Fast,1123718
+Chennai Super Kings,CSK,Dian Forrester,Dian Forrester,True,0.75,75.0,₹75 Lakh,Batting allrounder,South Africa,Left hand Bat,Right arm Fast,696471
+Chennai Super Kings,CSK,Zak Foulkes,Zakary Glen Foulkes,True,0.75,75.0,₹75 Lakh,Bowling allrounder,New Zealand,Right hand Bat,Right arm Medium,1202098
+Chennai Super Kings,CSK,Aman Khan,Aman Khan,False,0.4,40.0,₹40 Lakh,Allrounder,India,Right hand Bat,Right arm Medium,1254269
+Chennai Super Kings,CSK,Akash Madhwal,Akash Madhwal,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Right arm Medium fast,1206039
+Chennai Super Kings,CSK,Kuldip Yadav,Kuldip Yadav,False,0.3,30.0,₹30 Lakh,Bowler,India,Left hand Bat,Left arm Fast medium,1206495
+Chennai Super Kings,CSK,Macneil Noronha,Macneil Hadley Noronha,False,0.3,30.0,₹30 Lakh,Allrounder,India,Right hand Bat,Right arm Offbreak,1327725

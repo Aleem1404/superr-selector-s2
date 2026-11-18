@@ -1,0 +1,16 @@
+{
+  "full_name": "Tanveer Singh Sangha",
+  "short_name": "Tanveer Sangha",
+  "display_name": "Tanveer Singh Sangha",
+  "first_name": "Tanveer",
+  "last_name": "Sangha",
+  "date_of_birth": "26/11/2001",
+  "age": 24,
+  "gender": "M",
+  "country": "Australia",
+  "playing_role": "Bowler",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Legbreak",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

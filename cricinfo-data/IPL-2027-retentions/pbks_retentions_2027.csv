@@ -1,0 +1,20 @@
+team_name,team_code,player_name,full_name,is_overseas,is_traded,retention_salary_crores,retention_salary_lakhs,retention_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Punjab Kings,PBKS,Shreyas Iyer,Shreyas Santosh Iyer,False,False,26.75,2675.0,₹26.75 Cr,Top-order batter,India,Right hand Bat,"Right arm Offbreak, Legbreak Googly",642519
+Punjab Kings,PBKS,Hardik Pandya,Hardik Himanshu Pandya,False,True,18.0,1800.0,₹18.00 Cr,Allrounder,India,Right hand Bat,Right arm Medium fast,625371
+Punjab Kings,PBKS,Yuzvendra Chahal,Yuzvendra Singh Chahal,False,False,18.0,1800.0,₹18.00 Cr,Bowler,India,Right hand Bat,Legbreak Googly,430246
+Punjab Kings,PBKS,Marcus Stoinis,Marcus Peter Stoinis,True,False,11.0,1100.0,₹11.00 Cr,Batting allrounder,Australia,Right hand Bat,Right arm Medium,325012
+Punjab Kings,PBKS,Marco Jansen,Marco Jansen,True,False,7.0,700.0,₹7.00 Cr,Bowling allrounder,South Africa,Right hand Bat,Left arm Fast,696401
+Punjab Kings,PBKS,Shashank Singh,Shashank Singh,False,False,5.5,550.0,₹5.50 Cr,Batting allrounder,India,Right hand Bat,"Right arm Medium, Right arm Offbreak",377534
+Punjab Kings,PBKS,Ben Dwarshuis,Benjamin James Dwarshuis,True,False,4.4,440.0,₹4.40 Cr,Bowler,Australia,Left hand Bat,Left arm Fast medium,679567
+Punjab Kings,PBKS,Prabhsimran Singh,Prabhsimran Singh,False,False,4.0,400.0,₹4.00 Cr,Wicketkeeper batter,India,Right hand Bat,,1161024
+Punjab Kings,PBKS,Priyansh Arya,Priyansh Arya,False,False,3.8,380.0,₹3.80 Cr,Opening batter,India,Left hand Bat,Right arm Offbreak,1175456
+Punjab Kings,PBKS,Cooper Connolly,Cooper Patrick Leonard Connolly,True,False,3.0,300.0,₹3.00 Cr,Batting allrounder,Australia,Left hand Bat,Slow Left arm Orthodox,1210488
+Punjab Kings,PBKS,Azmatullah Omarzai,Azmatullah Omarzai,True,False,2.4,240.0,₹2.40 Cr,Allrounder,Afghanistan,Right hand Bat,Right arm Medium fast,819429
+Punjab Kings,PBKS,Vyshak Vijaykumar,Vyshak Vijaykumar,False,False,1.8,180.0,₹1.80 Cr,,India,,,
+Punjab Kings,PBKS,Yash Thakur,Yash Ravisingh Thakur,False,False,1.6,160.0,₹1.60 Cr,Bowler,India,Right hand Bat,Right arm Fast medium,1070196
+Punjab Kings,PBKS,Harpreet Brar,Harpreet Brar,False,False,1.5,150.0,₹1.50 Cr,Bowler,India,Left hand Bat,Slow Left arm Orthodox,1168641
+Punjab Kings,PBKS,Vishnu Vinod,Vishnu Vinod,False,False,0.95,95.0,₹95 Lakh,Wicketkeeper batter,India,Right hand Bat,,732293
+Punjab Kings,PBKS,Xavier Bartlett,Xavier Colin Bartlett,True,False,0.8,80.0,₹80 Lakh,Bowler,Australia,Right hand Bat,Right arm Fast medium,1050545
+Punjab Kings,PBKS,Harnoor Pannu,Harnoor Singh Pannu,False,False,0.3,30.0,₹30 Lakh,Batter,India,Left hand Bat,Legbreak,1292496
+Punjab Kings,PBKS,Musheer Khan,Musheer Khan,False,False,0.3,30.0,₹30 Lakh,Allrounder,India,Right hand Bat,Slow Left arm Orthodox,1316430
+Punjab Kings,PBKS,Suryansh Shedge,Suryansh Shedge,False,False,0.3,30.0,₹30 Lakh,Batting allrounder,India,Right hand Bat,Right arm Medium fast,1339698

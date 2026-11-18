@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints
+
+# Large raw archive
+*.zip
+*.tar.gz
+
+# Temp scratch & scrape dumps
+*.html
+!**/dashboard/index.html
+!rr-submission/**/index.html
+*.log
+next_data_squads.json
+squads_dump.html
+
+# OS files
+.DS_Store
+Thumbs.db

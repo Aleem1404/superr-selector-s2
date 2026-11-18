@@ -1,0 +1,23 @@
+team_name,team_code,player_name,full_name,is_overseas,is_traded,retention_salary_crores,retention_salary_lakhs,retention_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Gujarat Titans,GT,Rashid Khan,Rashid Khan Arman,True,False,18.0,1800.0,₹18.00 Cr,Bowling allrounder,Afghanistan,Right hand Bat,Legbreak Googly,793463
+Gujarat Titans,GT,Shubman Gill,Shubman Gill,False,False,16.5,1650.0,₹16.50 Cr,Top-order batter,India,Right hand Bat,Right arm Offbreak,1070173
+Gujarat Titans,GT,Jos Buttler,Joseph Charles Buttler,True,False,15.75,1575.0,₹15.75 Cr,Wicketkeeper batter,England,Right hand Bat,,308967
+Gujarat Titans,GT,Mohammad Siraj,Mohammad Siraj,False,False,12.25,1225.0,₹12.25 Cr,,India,,,
+Gujarat Titans,GT,Kagiso Rabada,Kagiso Rabada,True,False,10.75,1075.0,₹10.75 Cr,Bowler,South Africa,Left hand Bat,Right arm Fast,550215
+Gujarat Titans,GT,Prasidh Krishna,Muralikrishna Prasidh Krishna,False,False,9.5,950.0,₹9.50 Cr,Bowler,India,Right hand Bat,Right arm Fast medium,917159
+Gujarat Titans,GT,Sai Sudharsan,Bhardwaj Sai Sudharsan,False,False,8.5,850.0,₹8.50 Cr,Top-order batter,India,Left hand Bat,Legbreak,1151288
+Gujarat Titans,GT,Jason Holder,Jason Omar Holder,True,False,7.0,700.0,₹7.00 Cr,Bowling allrounder,West Indies,Right hand Bat,Right arm Medium fast,391485
+Gujarat Titans,GT,Harshal Patel,Harshal Vikram Patel,False,True,4.0,400.0,₹4.00 Cr,Bowling allrounder,India,Right hand Bat,Right arm Medium,390481
+Gujarat Titans,GT,Rahul Tewatia,Rahul Tewatia,False,False,4.0,400.0,₹4.00 Cr,Bowling allrounder,India,Left hand Bat,Legbreak,423838
+Gujarat Titans,GT,Washington Sundar,Washington Sundar,False,False,3.2,320.0,₹3.20 Cr,Bowling allrounder,India,Left hand Bat,Right arm Offbreak,719715
+Gujarat Titans,GT,Glenn Phillips,Glenn Dominic Phillips,True,False,2.0,200.0,₹2.00 Cr,Allrounder,New Zealand,Right hand Bat,Right arm Offbreak,823509
+Gujarat Titans,GT,R. Sai Kishore,Ravisrinivasan Sai Kishore,False,False,2.0,200.0,₹2.00 Cr,Bowler,India,Left hand Bat,Slow Left arm Orthodox,1048739
+Gujarat Titans,GT,Tom Banton,Tom Banton,True,False,2.0,200.0,₹2.00 Cr,Wicketkeeper batter,England,Right hand Bat,,877051
+Gujarat Titans,GT,Gurnoor Singh Brar,Gurnoor Singh Brar,False,False,1.3,130.0,₹1.30 Cr,,India,,,
+Gujarat Titans,GT,Mohd. Arshad Khan,Mohd. Arshad Khan,False,False,1.3,130.0,₹1.30 Cr,,India,,,
+Gujarat Titans,GT,Ashok Sharma,Ashok Sharma,False,False,0.9,90.0,₹90 Lakh,Bowler,India,Right hand Bat,Right arm Fast,1299879
+Gujarat Titans,GT,Jayant Yadav,Jayant Yadav,False,False,0.75,75.0,₹75 Lakh,Bowler,India,Right hand Bat,Right arm Offbreak,447587
+Gujarat Titans,GT,Kumar Kushagra,Kumar Kushagra,False,False,0.65,65.0,₹65 Lakh,Wicketkeeper batter,India,Right hand Bat,,1207295
+Gujarat Titans,GT,Anuj Rawat,Anuj Rawat,False,False,0.3,30.0,₹30 Lakh,Wicketkeeper batter,India,Left hand Bat,,1123073
+Gujarat Titans,GT,Manav Suthar,Manav Jagdusakumar Suthar,False,False,0.3,30.0,₹30 Lakh,Bowling allrounder,India,Left hand Bat,Slow Left arm Orthodox,1175426
+Gujarat Titans,GT,Nishant Sindhu,Nishant Sindhu,False,False,0.3,30.0,₹30 Lakh,Allrounder,India,Left hand Bat,Slow Left arm Orthodox,1292506

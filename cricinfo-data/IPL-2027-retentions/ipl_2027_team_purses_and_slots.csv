@@ -1,0 +1,11 @@
+team_name,team_code,retained_players,retained_overseas,total_money_spent_cr,retention_deduction_cr,salary_cap_available_cr,available_slots,available_overseas_slots
+Chennai Super Kings,CSK,19,6,101.95,2.0,28.05,6,2
+Delhi Capitals,DC,16,4,90.5,5.5,39.5,9,4
+Gujarat Titans,GT,22,6,121.25,0.0,8.75,3,2
+Kolkata Knight Riders,KKR,17,5,88.35,6.0,41.65,8,3
+Lucknow Super Giants,LSG,18,5,82.55,0.0,47.45,7,3
+Mumbai Indians,MI,16,6,97.4,0.0,32.6,9,2
+Punjab Kings,PBKS,19,6,111.4,0.0,18.6,6,2
+Rajasthan Royals,RR,19,5,102.95,0.0,27.05,6,3
+Royal Challengers Bengaluru,RCB,20,7,115.85,0.0,14.15,5,1
+Sunrisers Hyderabad,SRH,18,5,89.85,0.0,40.15,7,3

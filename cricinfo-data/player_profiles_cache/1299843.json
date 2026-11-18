@@ -1,0 +1,16 @@
+{
+  "full_name": "Pukhraj Mann",
+  "short_name": "Pukhraj Mann",
+  "display_name": "Pukhraj Mann",
+  "first_name": "Pukhraj",
+  "last_name": "Mann",
+  "date_of_birth": "7/6/2001",
+  "age": 25,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Unknown",
+  "batting_style": "Left-hand bat",
+  "bowling_style": "Slow left-arm orthodox",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

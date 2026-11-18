@@ -1,0 +1,16 @@
+{
+  "full_name": "Aayush Singh Thakur",
+  "short_name": "Aayush Thakur",
+  "display_name": "Aayush Singh Thakur",
+  "first_name": "Aayush",
+  "last_name": "Thakur",
+  "date_of_birth": "23/11/2002",
+  "age": 23,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Unknown",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm medium-fast",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

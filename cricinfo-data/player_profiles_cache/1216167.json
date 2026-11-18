@@ -1,0 +1,16 @@
+{
+  "full_name": "Praful Prakash Hinge",
+  "short_name": "Praful Hinge",
+  "display_name": "Praful Prakash Hinge",
+  "first_name": "Praful",
+  "last_name": "Hinge",
+  "date_of_birth": "18/1/2002",
+  "age": 24,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Bowler",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Right-arm medium-fast",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

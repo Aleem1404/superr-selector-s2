@@ -1,0 +1,16 @@
+{
+  "full_name": "Konda Bhaskir Arun Karthik",
+  "short_name": "Arun Karthik",
+  "display_name": "Konda Bhaskir Arun Karthik",
+  "first_name": "Arun",
+  "last_name": "Karthik",
+  "date_of_birth": "15/2/1986",
+  "age": 40,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Wicketkeeper batter",
+  "batting_style": "Right-hand bat",
+  "bowling_style": "Legbreak googly",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}

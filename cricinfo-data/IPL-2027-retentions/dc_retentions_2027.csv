@@ -1,0 +1,17 @@
+team_name,team_code,player_name,full_name,is_overseas,is_traded,retention_salary_crores,retention_salary_lakhs,retention_salary_inr,official_role,country,batting_style,bowling_style,cricinfo_player_id
+Delhi Capitals,DC,Axar Patel,Axar Rajeshbhai Patel,False,False,16.5,1650.0,₹16.50 Cr,Allrounder,India,Left hand Bat,Slow Left arm Orthodox,554691
+Delhi Capitals,DC,Rishabh Pant,Rishabh Rajendra Pant,False,True,15.0,1500.0,₹15.00 Cr,Wicketkeeper batter,India,Left hand Bat,,931581
+Delhi Capitals,DC,KL Rahul,Kannaur Lokesh Rahul,False,False,14.0,1400.0,₹14.00 Cr,Wicketkeeper batter,India,Right hand Bat,,422108
+Delhi Capitals,DC,Tristan Stubbs,Tristan Stubbs,True,False,10.0,1000.0,₹10.00 Cr,Wicketkeeper batter,South Africa,Right hand Bat,Right arm Offbreak,595978
+Delhi Capitals,DC,Auqib Dar,Auqib Dar,False,False,8.4,840.0,₹8.40 Cr,,India,,,
+Delhi Capitals,DC,Mukesh Kumar,Mukesh Kumar,False,False,8.0,800.0,₹8.00 Cr,Bowler,India,Right hand Bat,Right arm Medium,926851
+Delhi Capitals,DC,Ashutosh Sharma,Ashutosh Rambabu Sharma,False,False,3.8,380.0,₹3.80 Cr,Batting allrounder,India,Right hand Bat,,1131978
+Delhi Capitals,DC,David Miller,David Andrew Miller,True,False,2.0,200.0,₹2.00 Cr,Middle-order batter,South Africa,Left hand Bat,Right arm Offbreak,321777
+Delhi Capitals,DC,Kyle Jamieson,Kyle Alex Jamieson,True,False,2.0,200.0,₹2.00 Cr,Bowler,New Zealand,Right hand Bat,Right arm Fast medium,625960
+Delhi Capitals,DC,Lungisani Ngidi,Lungisani True-man Ngidi,True,False,2.0,200.0,₹2.00 Cr,Bowler,South Africa,Right hand Bat,Right arm Fast medium,542023
+Delhi Capitals,DC,Sameer Rizvi,Sameer Rizvi,False,False,0.95,95.0,₹95 Lakh,Allrounder,India,Right hand Bat,Right arm Offbreak,1175489
+Delhi Capitals,DC,Prithvi Shaw,Prithvi Pankaj Shaw,False,False,0.75,75.0,₹75 Lakh,Opening batter,India,Right hand Bat,Right arm Offbreak,1070168
+Delhi Capitals,DC,Vipraj Nigam,Vipraj Nigam,False,False,0.5,50.0,₹50 Lakh,Bowler,India,Right hand Bat,Legbreak,1449074
+Delhi Capitals,DC,Madhav Tiwari,Madhav Tiwari,False,False,0.4,40.0,₹40 Lakh,Allrounder,India,Right hand Bat,Right arm Medium fast,1460385
+Delhi Capitals,DC,Zeeshan Ansari,Zeeshan Ansari,False,True,0.4,40.0,₹40 Lakh,Bowler,India,Right hand Bat,Legbreak Googly,942371
+Delhi Capitals,DC,Tripurana Vijay,Tripurana Vijay,False,False,0.3,30.0,₹30 Lakh,Bowler,India,Right hand Bat,Right arm Offbreak,1292527

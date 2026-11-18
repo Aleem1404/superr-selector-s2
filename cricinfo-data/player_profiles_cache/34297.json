@@ -1,0 +1,16 @@
+{
+  "full_name": "Gorrela Shankara Rao",
+  "short_name": "Shankara Rao",
+  "display_name": "Gorrela Shankara Rao",
+  "first_name": "Shankara",
+  "last_name": "Rao",
+  "date_of_birth": "10/4/1984",
+  "age": 42,
+  "gender": "M",
+  "country": "India",
+  "playing_role": "Unknown",
+  "batting_style": "Left-hand bat",
+  "bowling_style": "Slow left-arm orthodox",
+  "headshot_url": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+  "is_active": true
+}
