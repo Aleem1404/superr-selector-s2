@@ -16,6 +16,8 @@ __pycache__/
 
 # Temp scratch & scrape dumps
 *.html
+!index.html
+!docs/index.html
 !**/dashboard/index.html
 !rr-submission/**/index.html
 *.log
@@ -25,3 +27,4 @@ squads_dump.html
 # OS files
 .DS_Store
 Thumbs.db
+
